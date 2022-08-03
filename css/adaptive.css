@@ -1,0 +1,389 @@
+@media (max-width: 1620px) {
+    .IndexTeacherInfo__MA__content{display: block}
+    .IndexTeacherInfo__MA__slider{max-width: 13000px; margin-top: 50px}
+
+}
+
+@media (max-width: 1500px){
+    .free_Oktava_MA_block_MA{width: 1180px}
+    .free_Oktava_MA_block_MA_cont{margin-left: 90px;}
+    .free_Oktava_guitar_MA{right: 0; }
+    .dp_block_1500{display: block}
+    .dp_no_1500{display: none}
+    .contAndMap{display: inherit; width: 725px; margin-left: auto; margin-right: auto}
+    .contAndMap_right_MA{margin-left: 0; margin-top: 50px}
+    .vk_soc_MA{width: 600px; margin-top: 50px; overflow: hidden}
+    .vk_soc_MA__content{padding-top: 0; display: block;}
+    .vk_soc_MA__headline{margin-left: 0; padding-bottom: 31px}
+    .vk_soc_MA__post{margin-top: 19px; width: 300px}
+    .Vk_block_hand_MA{width: 555px; height: 414px; top: 318px; left: 300px; transform: scaleX(-1) rotate(-25.5deg);}
+    .schoolOfMusic_MA_bg-control{display: none}
+    .noLimitation_MA-mainArea{display: block}
+    .noLimitation_MA-mainArea__no-active_container{margin-left: 0; display: flex; margin-top: 20px;}
+    .noLimitation_MA-mainArea__no-active__mg{margin-top: 0; margin-left: 30px}
+    .youCan_MA__headline{text-align: left; margin-left: 180px; max-width: 600px}
+    .youCan_MA__1500-brShow{display: block}
+    .youCanIMG{position: relative;left: 0; width: 596px; height: 474px; margin-left: 180px}
+    .youCan_MA__content{margin-top: 50px; margin-left: 180px}
+    .youCan_MA__subtitle-sub{margin-top: 20px;}
+    .youCan_MA__text-headline{margin-top: 50px}
+    .youCanIMG_Note{display: block; position: absolute; width: 120px; height: 124px; left: 800px; top: 600px}
+
+    .ourAtmosphere__content{display: none}
+    .ourAtmosphere__IMAGES{display: none}
+    .ourAtmosphere{height: fit-content; padding-bottom: 100px; background-size: cover}
+
+    .ourAtmosphere__content-b{display: block;padding-top: 150px; margin-left: 180px}
+    .ourAtmosphere__content-b__contentBlock{margin-top: 60px}
+    .ourAtmosphere__content-b__contentBlock__firstBlock{margin-top: 100px}
+    .ourAtmosphere__content-b__contentBlock-IMG{max-width: 913px; height: 400px; border-radius: 20px}
+    .ourAtmosphere__content-b__contentBlock-IMG__first{background: url("../img/ourAtmosphere__content-firstImg.jpg")}
+    .ourAtmosphere__content-b__contentBlock-IMG__second{background: url("../img/ourAtmosphere__content-secondImg.jpg")}
+    .ourAtmosphere__content-b__contentBlock-IMG__third{background: url("../img/ourAtmosphere__content-thirdImg.jpg")}
+    .ourAtmosphere__content-b__contentBlock-IMG__fourth{background: url("../img/ourAtmosphere__content-fourthImg.jpg")}
+    .ourAtmosphere__content-b__contentBlock-IMG__fourth__position{background-size: cover;background-position: 15% 30%}
+    .ourAtmosphere__content-b__contentBlock-content{margin-top: 45px; display: flex; max-width: 535px; justify-content: space-between}
+    .ourAtmosphere__content-b__contentBlock-content__number{font-size: 102px}
+    .ourAtmosphere__content-b__contentBlock-content__text{margin-left: 15px; max-width: 460px}
+    .ourAtmosphere__content-b__contentBlock-content__text-headline{font-size: 24px}
+    .ourAtmosphere__content-b__contentBlock-content__text-text{margin-top: 5px; font-size: 16px}
+    .toPerformance_MA__formHeadline__ourAtmosphere{margin-top: 45px}
+    .ourAtmosphere_star-4{display: block; position: absolute; top: 170px; left: 900px}
+    .FAQ_MA__1500-flex{display: flex; max-width: 600px; justify-content: space-between}
+    .FAQ_guitarist{left: 800px;}
+    .FAQ_MA__materials__block-content__question-text{width: 230px; height: auto}
+    .FAQ_MA__materials__block-content__answer{width: 235px}
+    .FAQ_MA__materials__block-content{padding: 12px 15px 12px 20px;}
+    .FAQ_MA__materials__block-content__mg{margin-top: 20px}
+    .FAQ_MA__materials__block-content__mg_1500{margin-top: 20px}
+    .FAQ_MA__materials__block-content__question-plus{width: 15px; height: 15px; margin-left: 10px}
+    .FAQ-form__input-flex{display: block}
+    .FAQ-form__input{width: 100%;}
+    .FAQ_MA__materials{margin-left: 15px; display: block; order: 2}
+    .FAQ-formArea{margin-left: 0; order: 1}
+    .FAQ-form{max-width: 290px;}
+    .youCan_MA{margin-top: 100px}
+
+
+
+}
+
+@media (max-width: 1470px){
+    .loveMusic_MA-IMG{ width: 455px; height: 685px;}
+    .loveMusic_MA{padding-bottom: 200px}
+    .toPerformance_party_MA{position: absolute; width: 601px; height: 571px; right: 36px; bottom: 10px}
+}
+
+@media (max-width: 1325px){
+    .teachersSlider__controlPanel{display: flex}
+    .teachersSlider__content{display: block}
+    .teachersSlider__controlPanel__block{display: flex; margin-top: 0; margin-left: 20px}
+    .teachersSlider__controlPanel__sortingButton{margin-top: 0; margin-left: 10px}
+    .teachersSlider__teachersBlock{display: none}
+    .teachersSlider__teacherBlock-resize{display: block;  max-width: 13000px; overflow: hidden}
+    .teachersSlider__teacherBlock-resizeBLOCK{margin-top: 50px}
+    .teachersSlider__teachersBlock__wrapper{margin-top: 25px; transition: .5s}
+    .teachersSlider__teachersBlock__headline{font-size: 40px; text-transform: uppercase; font-family: "Mont_Heavy_MA"; color: #3B32F5;}
+    .teachersSlider__teachersBlock__tape{display: flex; justify-content: space-between; transition: .5s}
+    .teachersSlider__teacher{margin-top: 0; margin-left: 0}
+    .IndexTeacherInfo__MA__slider_btn__buttonBlock{margin-top: 10px}
+    .teachersSlider__learnMore{margin-left: 0}
+
+}
+
+@media (max-width: 1380px){
+    .loveMusic_MA-IMG{ width: 455px; height: 685px;}
+    .loveMusic_MA{padding-bottom: 200px}
+    .toPerformance_party_MA{display: none}
+}
+
+@media (max-width: 1240px){
+    .teachersPOPUP__container{margin-top: 50px}
+    .teachersPOPUP__content{padding: 10px; border-radius: 20px;}
+    .teachersPOPUP__sliderWrapper{width: 300px; height: 560px;}
+    .teachersPOPUP__sliderTape__slideONE{width: 300px; height: 560px}
+    .teachersPOPUP__sliderTape__slideTWO{width: 300px; height: 560px}
+    .teachersPOPUP__sliderTape{width: 600px;}
+    .teachersPOPUP__sliderArrow{width: 40px; height: 40px;}
+    .teachersPOPUP__sliderArrow__mg{margin-left: 5px;}
+    .teachersPOPUP__sliderText{width: 200px;  font-size: 14px; left: 10px; bottom: 60px}
+    .teachersPOPUP__sliderArrow-area{left: 10px; bottom: 10px}
+    .teachersPOPUP__mainInfo{margin-top: 20px; display: block}
+    .teachersPOPUP__mainInfo__INFO__teacherName{font-size: 28px; max-width: 280px}
+    .teachersPOPUP__mainInfo__INFO__quote{max-width: 300px; margin-top: 10px; font-size: 18px}
+    .teachersPOPUP__mainInfo__INFO__text{font-size: 14px; max-width: 300px; margin-top: 10px}
+    .teachersPOPUP__mainInfo__button{ margin-top: 10px; max-width: 300px; height: 60px;  font-size: 14px; border-radius: 10px}
+    .teachersPOPUP__mainInfo__contacts{padding: 20px 20px 24px 20px; margin-left: 0; max-height: 365px}
+    .teachersPOPUP__mainInfo__contacts__main{max-width: 250px;}
+    .teachersPOPUP__mainInfo__contacts__main__headline{font-size: 18px}
+    .teachersPOPUP__mainInfo__contacts__main__text{font-size: 14px; margin-top: 10px}
+    .teachersPOPUP__mainInfo__button-contactsVer{margin-top: 10px; width: 250px; height: 60px; display: flex; align-items: center; justify-content: center; font-size: 14px; text-align: center}
+    .teachersPOPUP__mainInfo__contacts__links{margin-top: 10px;}
+    .closeButton__MA{position: absolute; width: 35px; height: 35px; right: 0; top: -40px}
+
+
+}
+
+@media (max-width: 1180px){
+    .size_600_ma{display: block}
+    .size_340_MA{display: none}
+    .free_Oktava_600_all_MA{margin-left: 290px}
+    .size_full_MA{display: none}
+    .free_Oktava_photo_MA{background: url("../img/ourAtmosphere__content-thirdImg.jpg")}
+    .free_Oktava_photo_options_MA{width: 140px; height: 140px; border-radius: 20px}
+    .bg_opt_all_MA{background-size: cover; background-repeat: no-repeat; background-position: center center}
+    .free_Oktava_MA_block_MA{width: 600px}
+    .free_Oktava_MA_block_MA_cont{margin-left: 0px;}
+    .free_oktava_und_head_MA{margin-left: 0; margin-top: 55px}
+    .contAndMap{ width: 620px;}
+    .contAndMap_left_MA{width: 620px; height: 415px}
+    .contAndMap_left_content_MA{padding-top: 50px; padding-left: 10px}
+    .contactsAndMap_hand_MA{display: none}
+    .contAndMap_left_MA_net{margin-top: 0; position: absolute; right: 15px; bottom: 20px}
+    .contAndMap_left_MA_icons-size-mg{margin-left: 17px}
+    .contAndMap_right_MA{width: 620px}
+    .size_1180_dp_no_MA{display: block}
+    .contAndMap_right_content_MA{margin-left: 10px; padding-top: 50px}
+    .contAndMap_right_MA_spec-mg{margin-top: 20px}
+    .contAndMap_MAP{width: 600px; height: 388px; margin-left: 10px; margin-top: 20px;}
+    .contactsAndMap_pointer_MA{top: 199px; right: 36px; width: 105px; height: 131px}
+    .schoolOfMusic_MA__addressArea{display: none}
+    .schoolOfMusic_MA__mainContent{margin-left: 10px}
+    .schoolOfMusic_MA__headline{margin-top: 0; padding-top: 150px}
+    .schoolOfMusic_MA__headline-subtitleIMG{display: none}
+    .schoolOfMusic_MA__headline-subtitleIMG_2{display: block; position: absolute; width: 156px; height: 115px; left: 434px; top: 80px}
+    .loveMusic_MA__content{margin-left: 10px}
+    .loveMusic_MA-IMG{top: 140px}
+    .noLimitation_MA__content{margin-left: 0}
+    .noLimitation_MA-subtitle{left: 618px}
+    .noLimitation_MA-controlPanel{width: 609px}
+    .toPerformance_MA-container{margin-left: 10px}
+    .youCan_MA__headline{margin-left: 0;}
+    .youCanIMG{margin-left: 0}
+    .youCan_MA__content{margin-left: 0}
+    .youCanIMG_Note{left: 600px;}
+    .ourAtmosphere__content-b{margin-left: 0}
+    .ourAtmosphere_star-4{display: block; position: absolute; top: 170px; left: 600px}
+
+    .FAQ_MA__content{margin-left: 0; padding-top: 0}
+    .FAQ_guitarist{left: 630px;}
+
+    .IndexTeacherInfo__MA__content{margin-left: 0}
+    .teachersSlider__learnMore{display: block; height: auto; padding-top: 20px; padding-bottom: 23px}
+    .teachersSlider__learnMore__right{margin-left: 20px; margin-top: 33.6px; display: flex; align-items: center; margin-right: 0}
+    .teachersSlider__learnMore__right__icons{display: flex; margin-top: 0; margin-left: 60px; }
+
+
+}
+
+@media (max-width: 991px){
+    .noLimitation_MA-mainArea{display: none}
+    .noLimitation_MA{overflow: hidden}
+    .noLimitation_MA-subtitle{display: none}
+    .noLimitation_MA-subtitle_2{display: block; position: absolute; width: 90px; height: 225px; top: 30px; left: 474px}
+    .noLimitation__br-show{display: block}
+    .noLimitation_MA-mainArea__b-version{ display: flex; margin-top: 20px; max-width: 1480px; overflow: hidden;align-items: flex-start;
+        flex-direction: row;}
+    .noLimitation__b-version__block{width: 350px; height: 659px; opacity: .5; background: white; margin-left: 20px}
+    .noLimitation__b-version__block:hover{cursor: pointer}
+    .noLimitation__b-version__block-trueBG{background: url("../img/noLimitation__b-version__blockBG.png") no-repeat; opacity: 1; margin-left: 0}
+    .noLimitation__b-version__block__IMG{width: 330px; height: 300px; margin: 10px 10px 0 10px}
+    .noLimitation__b-version__block-container{margin-left: 10px; width: 330px; margin-top: 20px}
+    .noLimitation__b-version__block__headline{font-size: 24px;}
+    .noLimitation__b-version__block__text{font-size: 14px; margin-top: 10px}
+    .toPerformance_MA__formHeadline{margin-top: 10px; max-width: 535px}
+    .toPerformance_MA__text{margin-top: 50px}
+    .toPerformance_stars_MA{display: none}
+    .toPerformance_MA-container{padding-top: 100px}
+    .toPerformance_MA{height: 729px; position: relative; z-index: 10}
+    .toPerformance_MA__subtitle{max-width: 611px}
+    .toPerformance_MA-show-br{display: block}
+    .toPerformance_stars_2_MA{display: block; position: absolute; width: 52px; height: 52px; left: 474px; top: 130px}
+    .toPerformance_party_2_MA{display: block; position: absolute; width: 875px; height: 681px; bottom: -211px; right: 0; z-index: 1}
+    .main_form_MA{margin-top: 25px; position: relative; z-index: 10}
+    .ourAtmosphere_991BrShow{display: block}
+    .ourAtmosphere__content-b__contentBlock__firstBlock{margin-top: 50px}
+    .ourAtmosphere_star-4{top: 32px; left: 439px}
+    .ourAtmosphere__content-b{padding-top: 100px;}
+    .ourAtmosphere__content-b__contentBlock{margin-top: 75px}
+    .ourAtmosphere__content-b__contentBlock-IMG{height: 360px}
+    .FAQ_guitarist{display: none}
+
+}
+
+
+@media (max-width: 900px){
+    .loveMusic_MA-IMG{position: relative; top: 50px; left: 80px}
+    .loveMusic_MA__content-text-t__second{margin-left: 20px}
+
+}
+@media (max-width: 875px){
+    .of_h_875{overflow: hidden}
+    .schoolOfMusic-noBr{display: none}
+    .youCanIMG_Note{left: 480px;}
+    .youCanIMG{ width: 516px; height: 394px;}
+}
+
+@media (max-width: 740px){
+    .loveMusic_MA-IMG{position: relative; top: 50px; left: 0px; width: 344px; height: 518px}
+    .loveMusic_MA__content-text{display: block}
+    .loveMusic_MA__content-text-t__second{margin-left: 0; margin-top: 20px}
+    .loveMusic_MA__content{padding-top: 100px;}
+    .teachersSlider__controlPanel__headline{font-size: 14px;}
+    .teachersSlider__controlPanel__block{display: flex; flex-wrap: wrap; margin-top: 10px; margin-left: 0; max-width: 300px}
+    .teachersSlider__controlPanel{display: block}
+    .teachersSlider__controlPanel__sortingButton{ margin-left: 0}
+    .teachersSlider__controlPanel__sortingButton__mg{margin-left: 10px}
+    .teachersSlider__learnMore__right__headline{max-width: 103px; font-size: 18px}
+    .teachersSlider__learnMore__text{margin-top: 0; font-size: 14px; max-width: 339px}
+    .teachersSlider__learnMore__icon{}
+    .teachersSlider__iconSIZE{width: 33px; height: 33px}
+    .teachersSlider__learnMore__headline{font-size: 28px; max-width: 339px;}
+    .teachersSlider__learnMore__right__icons{margin-left: 25px; }
+    .teachersSlider__learnMore__icon__mg{margin-left: 20px}
+
+
+}
+
+@media (max-width: 625px){
+    .youCanIMG_Note{display: none}
+    .feedBack__POPUP__closeButton{width: 35px; height: 35px; position: absolute; right: 0; top: -39px}
+    .feedBack__POPUP__content{padding: 20px 10px 20px 10px;}
+    .feedBack__POPUP__headline{font-size: 28px; max-width: 276px}
+    .feedBack__POPUP__text{font-size: 14px; max-width: 300px; margin-top: 15px}
+    .feedBack__POPUP__form{max-width: 300px}
+
+}
+
+@media (max-width: 577px){
+    .schoolOfMusic_MA_mobile{display:block; position: absolute; bottom: 10px; left: 60px}
+    .size_340_MA{display: block}
+    .size_340_dp_no_MA{display: none}
+    .size_340_mg_0{margin-top: 0}
+    .free_oktava_und_head_text_MA{margin-left: 15px}
+    .free_oktava_und_head_MA{margin-left: 0; margin-top: 30px}
+    .free_Oktava_photo_options_MA{width: 123px; height: 103px; border-radius: 20px}
+    .free_Oktava_MA_block_MA{width: 350px; margin-top: 50px}
+    .free_Oktava_MA_block_MA_cont{padding-top: 0; padding-bottom: 0px}
+    .free_Oktava_600_all_MA{margin-left: 118px; width: 258px; height: 159px; margin-top: 14.5px}
+    .FS_100_MA{font-size: 72px}
+    .FS_64_MA{font-size: 40px}
+    .FS_40_MA{font-size: 32px}
+    .FS_24_MA{font-size: 18px}
+    .FS_16_MA{font-size: 16px}
+
+    .teachersSlider__learnMore__icon__mg_2{margin-left: 37px;}
+    .teachersSlider__iconSIZE_2{width: 55px; height: 55px}
+
+    .sp_fs_600_14{font-size: 14px}
+
+    .contAndMap{ width: 350px; margin-top: 50px}
+    .noLimitation_MA__content-headline{font-size: 40px}
+    .noLimitation_MA{margin-left: 5px; margin-right: 5px}
+    .noLimitation_MA-subtitle_2{display: none}
+    .noLimitation_MA-subtitle_3{display: block; position: absolute; width: 68px; height: 148px; top: 16px; left: 267px}
+    .noLimitation_MA-controlPanel{width: 350px; height: 50px}
+    .noLimitation_MA-controlPanel_button{padding: 5px 10px; font-size: 18px; margin: 0 5px 0 5px}
+
+    .contAndMap_left_content_MA{padding-top: 50px; padding-left: 5px}
+    .contAndMap_left_MA{width: 350px; height: 413px}
+    .contAndMap_left_MA_net{margin-top: 30px; margin-left: 0; position: relative; right: 0; bottom: 0}
+    .contAndMap_left_center_MA{margin-top: 30px}
+    .contAndMap_left_content_MA__head-600{font-size: 28px}
+    .phone_vectro_MA{width: 46px; height: 37px}
+    .contAndMap_left_center_MA-mg{margin-top: 11px}
+    .contactPhone_MA_under{margin-left: 0; display: block;width: 300px}
+    .contAndMap_left_MA_icons-size-mg{margin-left: 24px}
+    .contAndMap_left_MA_icons-size{width: 35px; height: 35px}
+    .contAndMap_right_MA{width: 350px; height: 536px; margin-top: 10px; overflow: hidden}
+    .contAndMap_MAP{width: 340px; height: 260px; margin-left: 5px; margin-top: 10px;}
+    .contAndMap_right_content_MA{margin-left: 5px;}
+    .contAndMap_right_MA_spec-mg{margin-top: 30px}
+    .contactsAndMap_pointer_MA{top: 160px; right: -10px; width: 81px; height: 101px}
+
+    .schoolOfMusic_MA{height: 900px; margin-left: 5px; margin-right: 5px; border-radius: 20px; background-size: cover}
+    .schoolOfMusic_MA__headline{padding-top: 100px; font-size: 72px}
+    .schoolOfMusic_MA__headline-subtitle{font-size: 28px}
+    .schoolOfMusic_MA__mainContent{margin-left: 5px}
+    .schoolOfMusic_MA__headline-subtitleIMG_2{display: none}
+    .schoolOfMusic_MA__headline-subtitleIMG_3{display: block; position: absolute;width: 101px; height: 109px; left: 243px; top: 22px}
+    .schoolOfMusic-noBr_2{display: block}
+    .schoolOfMusic-noBr{display: block}
+    .schoolOfMusic_MA__formHeadline{font-size: 14px; margin-top: 20px}
+    .schoolOfMusic_MA__form-flex{display: block}
+    .accept_button_MA__schoolOfMusic-ver{margin-left: 0;}
+    .tel_input_MA__schoolOfMusic-ver{margin-left: 0;}
+    .checkbox-b_MA_label{font-size: 12px; margin-left: 10px}
+
+    .loveMusic_MA__content-headline{font-size: 72px}
+    .loveMusic_MA__content-subtitle{font-size: 40px;}
+    .loveMusic_MA{padding-bottom: 50px}
+
+    .vk_soc_MA{width: 350px; margin-top: 10px;}
+    .vk_soc_MA__content{padding-top: 50px;}
+    .vk_soc_MA__headline{font-size: 40px; padding-bottom: 23px}
+    .vk_soc_MA__post{margin-top: 7px;}
+    .Vk_block_hand_MA{display: none}
+
+    .toPerformance_MA{height: 606px;}
+    .toPerformance_MA{margin-left: 5px; margin-right: 5px}
+    .toPerformance_party_2_MA{display: none}
+    .toPerformance_MA-container{padding-top: 30px}
+    .toPerformance_MA__subtitle{max-width: 340px; font-size: 28px}
+    .toPerformance_stars_2_MA{display: none}
+    .toPerformance_MA__text{margin-top: 30px; font-size: 14px; max-width: 370px}
+    .toPerformance_MA__formHeadline{margin-top: 20px; max-width: 535px; font-size: 14px}
+    .tel_input_MA{width: 98.5%; box-sizing: border-box; }
+    .accept_button_MA{width: 98.5%}
+    .main_form_MA{margin-top: 0}
+
+    .main_form_MA-flex{display: block}
+
+    .youCanIMG{ width: 320px; height: 271px;}
+    .youCan_MA__headline{font-size: 40px}
+    .youCan_MA__subtitle{font-size: 28px; margin-top: 30px }
+    .youCan_MA__subtitle-sub{font-size: 14px;margin-top: 10px}
+    .youCan_MA__text-headline{font-size: 18px;margin-top: 30px}
+    .youCan_MA__text{font-size: 14px; margin-top: 10px; max-width: 340px}
+    .youCan_MA__1500-brShow{display: none}
+    .youCan_MA__577-brShow{display: block}
+    .youCan_MA__container{margin-left: 5px; margin-right: 5px;}
+    .youCan_MA{margin-left: 5px; margin-right: 5px; margin-top: 100px}
+
+    .ourAtmosphere{margin-left: 5px; margin-right: 5px; }
+    .ourAtmosphere__container{margin-left: 5px; margin-right: 5px;}
+    .ourAtmosphere_star-4{display: none}
+    .ourAtmosphere__content-headline{font-size: 40px}
+    .ourAtmosphere__content-b{padding-top: 50px;}
+    .ourAtmosphere__content-b__contentBlock-IMG{ height: 240px}
+    .ourAtmosphere__content-b__contentBlock{margin-top: 40px}
+    .ourAtmosphere__content-b__contentBlock-content__text-headline{font-size: 18px; max-width: 280px}
+    .ourAtmosphere__content-b__contentBlock-content__text-text{font-size: 14px;}
+    .ourAtmosphere__content-headline__desktop{display: none}
+    .ourAtmosphere__content-headline__mobile{display: block}
+
+    .FAQ_MA__1500-flex{display: block;}
+    .FAQ-form{max-width: 700px;}
+    .FAQ_MA__headline{font-size: 40px}
+    .FAQ_MA__subtitle{font-size: 18px;}
+    .FAQ_MA__materials{margin-top: 30px; margin-left: 0}
+    .FAQ__mobile-br{display: block}
+    .FAQ-form__headline{font-size: 18px; color: #131441}
+    .FAQ-form__subtitle{font-size: 14px; margin-top: 10px}
+    .FAQ-formArea{margin-top: 30px;}
+
+    .IndexTeacherInfo__MA{margin-left: 5px; margin-top: 50px}
+    .IndexTeacherInfo__MA__container{margin-left: 5px}
+    .IndexTeacherInfo__MA__content{padding-top: 50px}
+    .IndexTeacherInfo__MA__content__info__headline{font-size: 40px}
+    .IndexTeacherInfo__MA__content__info__subtitle{max-width: 340px; margin-top: 30px; font-size: 28px}
+    .IndexTeacherInfo__MA__content__info__text{max-width: 340px; font-size: 14px; margin-top: 10px}
+    .IndexTeacherInfo__MA__slider__controlPanel__link{width: 222px; height: 50px; margin-left: 15px}
+    .IndexTeacherInfo__MA__slider_btn{width: 49px; height: 49px}
+
+    .teachersSlider{margin-left: 5px; margin-right: 5px; }
+    .teachersSlider__container{margin-left: 5px; margin-right: 5px}
+
+}
+
+.bg-options_MA{background-size: cover; background-position: center center; background-repeat: no-repeat;}

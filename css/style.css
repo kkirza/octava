@@ -1,0 +1,454 @@
+body{margin: 0; background: #E5E5E5}
+@font-face {  font-family: 'Mont_Black_MA';  src: url("../fonts/Mont-Black.ttf");}
+@font-face {  font-family: 'Mont_Light_MA';  src: url("../fonts/Mont-Light.ttf");}
+@font-face {  font-family: 'Mont_SemiBold_MA';  src: url("../fonts/Mont-SemiBold.ttf");}
+@font-face {  font-family: 'Mont_Extra_light_MA';  src: url("../fonts/Mont-ExtraLight.ttf");}
+@font-face {  font-family: 'Inter_light_MA';  src: url("../fonts/Inter-Light.ttf");}
+@font-face {  font-family: 'Inter_semi_bold_MA';  src: url("../fonts/Inter-SemiBold.ttf");}
+@font-face {
+    font-family: "Mont_Heavy_MA";
+    src: local("Mont_Heavy_MA"),
+    url("../fonts/Mont-Heavy.ttf") format("ttf"),
+    url("../fonts/Mont-Heavy.woff2") format("woff2"),
+    url("../fonts/Mont-Heavy.woff") format("woff");
+
+}
+@font-face {
+    font-family: "Inter_Regular_MA";
+    src: local("Mont_Regular_MA"),
+    url("../fonts/Inter-Regular.otf") format("otf"),
+    url("../fonts/Inter-Regular.woff2") format("woff2"),
+    url("../fonts/Inter-Regular.woff") format("woff");
+}
+
+
+.color_main_blue_MA{color: #131441}
+.black_color_MA{color: black}
+.free_Oktava_MA_block_MA{width: 1480px;position: relative; margin-top: 100px;}
+.free_Oktava_MA_block_MA_cont{margin-left: 190px; padding-top: 100px; padding-bottom: 100px}
+.c-mg-MA{margin-left: auto; margin-right: auto}
+.Mont_Black_MA{font-family: "Mont_Black_MA";}
+.Mont_Heavy_MA{font-family: "Mont_Heavy_MA";}
+.Mont_Light_MA{font-family: "Mont_Light_MA";}
+.Mont_Extra_Light_MA{font-family: "Mont_Extra_light_MA";}
+.Inter_Light_MA{font-family: "Inter_light_MA";}
+.Inter_semi_bold_MA{font-family: "Inter_semi_bold_MA";}
+.Inter_Regular_MA{font-family: "Inter_Regular_MA";}
+.FS_100_MA{font-size: 100px}  .FS_64_MA{font-size: 64px}  .FS_24_MA{font-size: 24px}  .FS_16_MA{font-size: 16px} .FS_40_MA{font-size: 40px}
+.mg_t_full_30{margin-top: 30px} .mg_t_full_15{margin-top: 15px;} .mg_t_full_10{margin-top: 10px} .mg_t_full_50{margin-top: 50px}
+.Up-c_MA{text-transform: uppercase}
+.Lh-120_MA{line-height: 120%}
+.Lh-130_MA{line-height: 130%}
+
+.schoolOfMusic_MA_bg__guitar{width: 450px; height: 627px; position: absolute; top: 166px; right: 0; transition: .3s}
+.schoolOfMusic_MA_bg__piano{position: absolute; opacity: 0; width: 566px; height: 541px; right: 0; top: 205px; transition: .3s}
+.schoolOfMusic_MA_bg__micro{position: absolute; opacity: 0; width: 586px; height: 539px; top: 232px; right: 90px; transition: .3s}
+.schoolOfMusic_opacity_transform_hide{opacity: 0; transition: .3s}
+.schoolOfMusic_opacity_transform_show{opacity: 1; transition: .3s}
+.schoolOfMusic_MA__addressArea{padding-top: 20px; width: fit-content; margin-left: auto; margin-right: 60px}
+.schoolOfMusic_MA__addressArea-time{display: flex; align-items: center}
+.schoolOfMusic_MA__addressArea-timeIMG{width: 18px; height: 18px}
+.schoolOfMusic_MA__addressArea-timeTEXT{font-size: 16px; margin-left: 5px}
+.schoolOfMusic_MA__addressArea-address{display: flex; margin-top: 7px;}
+.schoolOfMusic_MA__addressArea-addressIMG{width: 16px; height: 20px}
+.schoolOfMusic_MA__addressArea-addressTEXT{font-size: 16px; margin-left: 5px}
+.schoolOfMusic_MA__mainContent{margin-left: 190px}
+.schoolOfMusic_MA__headline{font-size: 100px; margin-top: 59px; color: #131441}
+.schoolOfMusic_MA__headline-subtitleIMG{position: absolute; width: 202px; height: 143px; left: 693px; top: 197px}
+.schoolOfMusic_MA__headline-subtitle{font-size: 40px; color: #131441; margin-top: 50px}
+.schoolOfMusic_MA__formHeadline{font-size: 16px; margin-top: 25px}
+.schoolOfMusic_MA_mobile{display: none}
+.tel_input_MA__schoolOfMusic-ver{margin-top: 10px;}
+.mainContainer_MA{max-width: 1500px;margin-left: auto; margin-right: auto}
+.schoolOfMusic_MA__headline-subtitleIMG_2{display: none}
+.schoolOfMusic_MA__headline-subtitleIMG_3{display: none}
+.schoolOfMusic_MA{max-width: 1480px; height: 829px; background: url("../img/schoolOfMusic_MA_bg.png") no-repeat; border-radius: 30px; margin-left: 10px; margin-right: 10px; position: relative}
+.schoolOfMusic-noBr_2{display: none}
+.contAndMap_courseAndPrice{margin-top: 50px}
+.noLimitation_MA{max-width: 1480px; margin-left: 10px; margin-right: 10px; padding-top: 10px; position: relative;}
+.noLimitation_MA__content-headline{font-size: 64px}
+.noLimitation_MA__content{margin-left: 190px}
+.noLimitation_MA-subtitle{position: absolute; width: 203px; height: 116px; top: 98px;left: 808px}
+.noLimitation_MA-controlPanel{background: white; width: 630px; height: 60px; display: flex; align-items: center;justify-content: space-between;margin-top: 45px; border-radius: 40px}
+.noLimitation_MA-controlPanel_button{padding: 10px 30px; font-size: 24px; border-radius: 40px;margin: 0 5px;color: #BDBDBD}
+.noLimitation_MA-controlPanel_button:hover{cursor: pointer}
+.noLimitation_MA-controlPanel_button__active{background: #3B32F5; color: white;-webkit-box-shadow: 4px 0px 8px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 4px 0px 8px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 0px 8px 0px rgba(0, 0, 0, 0.2);}
+.noLimitation_MA-mainArea{display: flex; margin-top: 25px}
+.noLimitation_MA-mainArea__active{width: 913px; height: 700px; background: url("../img/noLimitation_MA-mainArea__activeBg.png") no-repeat; border-radius: 20px}
+.noLimitation_MA-mainArea__no-active_container{margin-left: 30px}
+.noLimitation_MA-mainArea__no-active{width: 347px; height: 340px; background: white; border-radius: 20px}
+.noLimitation_MA-mainArea__no-active__mg{margin-top: 20px}
+.noLimitation_MA-mainArea__active-IMG{width: 883px; height: 345px; margin: 15px 15px 0 15px; border-radius: 15px}
+.noLimitation_MA-mainArea__active-text{display: flex; margin-top: 50px}
+.noLimitation_MA-mainArea__active-text__subtitle{font-size: 40px; width: 505px; margin-left: 30px}
+.noLimitation_MA-mainArea__active-text__mainText{line-height: 130%; font-size: 16px; width: 348px}
+.noLimitation_MA-mainArea__active-text__mainText_mg{margin-top: 21px}
+.noLimitation_MA-mainArea__no-activeIMG{width: 317px; height: 211px; border-radius: 15px; margin: 15px 15px 0 15px}
+.noLimitation_MA-mainArea__no-activeIMG__adults{height: 253px}
+.noLimitation_MA-mainArea__no-activeIMG__child{height: 232px}
+.noLimitation_MA-mainArea__no-active-text{width: 317px; line-height: 130%; font-size: 16px; margin-top: 15px; margin-left: 15px; margin-right: 15px}
+.noLimitation_MA-mainArea__active-text__subtitle-sub{font-size: 16px; margin-top: 30px; line-height: 20.45px}
+.noLimitation-noActive-pointer:hover{cursor: pointer}
+.noLimitation_MA-subtitle_2{display: none}
+.noLimitation_MA-subtitle_3{display: none}
+.noLimitation__br-show{display: none}
+.noLimitation_MA-mainArea__b-version{display: none}
+
+
+.tel_input_MA{width: 314px; height: 60px; border-radius: 10px; border: 1px solid black; font-size: 14px; color: black; padding: 0 0 0 20px}
+.schoolOfMusic_MA__form{}
+.schoolOfMusic_MA__form-checkboxArea{display: flex; align-items: center; margin-top: 10px}
+.checkbox-b_MA{width: 18px; height: 18px}
+.schoolOfMusic_MA__form-flex{display: flex; align-items: center}
+.accept_button_MA{font-size: 14px; background: #3B32F5; width: 197px; height: 60px; color: white; border: none; border-radius: 10px}
+.accept_button_MA:hover{cursor: pointer}
+.accept_button_MA__schoolOfMusic-ver{margin-left: 25px; margin-top: 10px}
+.checkbox-b_MA_label{font-size: 14px; margin-left: 10px}
+::-webkit-input-placeholder {
+    color: #131441;
+}
+
+.course__wpl__obj__left, .course__wpl__obj__right{ font-family: "Inter_light_MA"}
+
+body {background-color:  #F7F7F7;}
+/*Карказ ДЕСКТОП*/
+.container__1500__ZK{max-width: 1500px;margin: 0 auto;}
+.br_fl_card{ display: none;}
+.card__four__lesson{ margin-left: 10px; margin-right: 10px; padding: 60px 0 60px 190px; background: url("../assets/img/background__fl.png"); background-size: cover;
+    background-position: center center; background-repeat: no-repeat; border-radius: 20px;
+    position: relative; margin-top: 200px}
+.card__fl__title{margin-bottom: 10px;font-weight: 900;font-size: 64px;line-height: 120%;text-transform: uppercase;color: #FFFFFF;}
+.card__fl__description{margin-bottom: 30px;font-weight: 900;font-size: 24px;line-height: 120%;text-transform: uppercase;color: #FFFFFF;}
+.fl__main__card__ZK{ display: flex; align-items: center;}
+.inp_txt__ZK_four { margin-right: 25px; width: 314px; height: 60px; font-size: 14px; line-height: 18px; background: #FFFFFF;
+    border: 1px solid #000000;border-radius: 10px;
+    padding: 22px 0 20px 20px; ; color: #000000;outline:none}
+.inp_txt__ZK_four::placeholder {color: #000000;}
+.fl_text_mobile{display: none;}
+.btn__fdback__ZK_four { font-size: 14px; background: #3B32F5; border-radius: 10px;
+    padding: 22px 30px 20px 30px; gap: 10px;
+    align-items: center; color: #FFFFFF;}
+.btn__fdback__ZK_four:hover { background: #6A63FF; box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);}
+.block__for__lbl__chk_four{display: flex;align-items: center; gap:10px; margin-top: 10px; padding-left: 5px;}
+#card_chk__fl_four{ width: 18px;height: 18px;}
+.card_label_for__chk_four{font-size: 14px; line-height: 130%; color: #FFFFFF;}
+.block__note__fl{ position: absolute; top: 45px; right:  101px;}
+
+@media (max-width: 1330px){
+    .block__note__fl{display: none;}
+}
+@media (max-width: 992px){
+    .card__four__lesson{ padding: 60px 20px; margin-top: 100px}
+}
+@media (max-width: 788px){
+
+    .card__four__lesson{ padding: 60px 20px; background: url("../assets/img/background__fl__mobile.png");
+        background-repeat: no-repeat;background-position: center center; background-size: cover;
+    }
+    .br_fl_card{ display: block;}
+    .card__fl__title,.card__fl__description{text-align: center}
+    .fl__card__ZK_four{ margin: 0 20px; display: block;}
+    .btn__fdback__ZK_four{ margin-top: 20px;}
+    .inp_txt__ZK_four,.btn__fdback__ZK_four{ width: 100%;}
+    .block__for__lbl__chk_four{ position: relative; left: 50%; transform: translateX(-50%); display: inline-flex; margin-top: 20px;
+    }
+    .inp_txt__ZK_four{ height: 80px; padding: 0px 0 0 20px;
+        margin-right: 0;
+    }
+    .btn__fdback__ZK_four{ padding: 32px 0 30px 0;
+    }
+    .fl_text_mobile{ display: block;}
+    .fl_text_desktop{
+        display: none;}
+}
+@media (max-width: 577px){
+    .card__four__lesson{ padding: 30px 5px; border-radius: 10px;
+        margin-left: 5px;
+        margin-right: 5px; margin-top: 50px}
+    .card__fl__title{   font-size: 40px;   line-height: 120%;  }
+    .card__fl__description{
+        font-size: 18px;
+        line-height: 120%;
+    }
+    .inp_txt__ZK_four {padding: 22px 0 20px 20px;
+        height: fit-content;}
+    .btn__fdback__ZK_four { padding: 22px 30px 20px 30px;  margin-top: 10px;}
+    .block__for__lbl__chk_four{ margin-top: 11px; position: relative;
+        left: 0; transform: translateX(0)}
+    .card_label_for__chk_four{color: #131441; font-style: normal;
+        font-weight: 400; font-size: 12px;
+    }
+    .fl__card__ZK_four {
+        margin: 0 5px;}
+    .fl_text_desktop{
+        display: block;}
+    .fl_text_mobile{
+        display: none;
+    }
+
+
+}
+
+.loveMusic_MA{max-width: 1480px; margin: 0 10px; position: relative; padding-bottom: 400px}
+.loveMusic_MA__content{margin-left: 190px; padding-top: 200px;}
+.loveMusic_MA__content-headline{font-size: 100px; color: #131441}
+.loveMusic_MA__content-subtitle{font-size: 64px; margin-top: 15px; max-width: 695px; color: #131441}
+.loveMusic_MA__content-text{font-size: 16px; margin-top: 30px; display: flex}
+.loveMusic_MA__content-text-t{max-width: 330px}
+.loveMusic_MA__content-text-t__second{margin-left: 60px}
+.loveMusic_MA-IMG{position: absolute; width: 600px; height: 902px; top: 400px; right: 0}
+
+.toPerformance_MA{margin-top: 200px; max-width: 1480px; height:819px;  margin-left: 10px; margin-right: 10px; background: url("../img/schoolOfMusic_MA_bg.png") no-repeat; border-radius: 20px; position: relative; overflow: hidden}
+.toPerformance_stars_MA{position: absolute; width: 158px; height: 168px; top: 22.5px; left: 22.5px}
+.toPerformance_party_MA{position: absolute; width: 651px; height: 621px; right: 36px; bottom: 36px}
+.toPerformance_MA-container{padding-top: 200px; margin-left: 190px}
+.toPerformance_MA__subtitle{font-size: 40px; max-width: 913px}
+.toPerformance_MA__text{max-width: 535px; font-size: 16px; margin-top: 30px}
+.toPerformance_MA__formHeadline{font-size: 16px; max-width: 304px; margin-top: 45px}
+.toPerformance_MA-show-br{display: none}
+.toPerformance_stars_2_MA{display: none}
+.toPerformance_party_2_MA{display: none}
+
+.youCan_MA{max-width: 1480px; margin-left: 10px; margin-right: 10px;  margin-top: 400px; position: relative;}
+.youCan_MA__container{margin-left: 10px; margin-right: 10px;}
+.youCan_MA__headline{text-align: center; font-size: 64px}
+.youCan_MA__content{margin-top: 100px; margin-left: 745px}
+.youCan_MA__subtitle{font-size: 40px; max-width: 616px }
+.youCan_MA__subtitle-sub{margin-top: 30px; font-size: 16px}
+.youCan_MA__text-headline{font-size: 24px; margin-top: 100px; max-width: 343px}
+.youCan_MA__text{font-size: 16px; margin-top: 10px; max-width: 347px}
+.youCanIMG{position: absolute; left: -100px; bottom: 0; width: 730px; height: 581px}
+.youCanIMG_Note{display: none}
+.youCan_MA__1500-brShow{display: none}
+.youCan_MA__577-brShow{display: none}
+
+.ourAtmosphere{max-width: 1480px; height: 2614px; margin-left: 10px; margin-right: 10px;  margin-top: 100px; position: relative; background: url("../img/ourAtmosphere_descktopBG.png") no-repeat; border-radius: 20px; overflow: hidden}
+.ourAtmosphere__container{margin-left: 10px; margin-right: 10px}
+.ourAtmosphere__content{padding-top: 150px; margin-left: 180px}
+.ourAtmosphere__content-headline{max-width: 812px; font-size: 64px}
+.ourAtmosphere_star-1{position: absolute; width: 501px; height: 428px; top: 185px; left: 934px}
+.ourAtmosphere__content-firstImg{margin-top: 100px; max-width: 913px; height: 400px;border-radius: 20px; background: url("../img/ourAtmosphere__content-firstImg.jpg")}
+.ourAtmosphere__content-firstInfoArea{margin-top: 50px; max-width: 535px; display: flex; justify-content: space-between; position: relative}
+.ourAtmosphere__content-firstInfoArea-1number{font-size: 102px;}
+.ourAtmosphere__content-firstInfoArea-content{max-width: 460px}
+.ourAtmosphere__content-firstInfoArea-content-headline{font-size: 24px}
+.ourAtmosphere__content-firstInfoArea-content-text{margin-top: 5px; max-width: 460px}
+.ourAtmosphere__content-firstInfoArea-star{position: absolute; top: 2px; left: 27px}
+.ourAtmosphere__content-secondInfoArea-content{display: flex; justify-content: space-between; max-width: 725px; margin-top: 45px}
+.ourAtmosphere__content_flexZone-right{margin-left: 30px}
+.ourAtmosphere__content-thirdImg{margin-top: 215px; width: 535px; height: 500px; border-radius: 20px; background: url("../img/ourAtmosphere__content-thirdImg.jpg")}
+.ourAtmosphere__arrowWithStar-1{position: absolute; top: 1173px; left: 606px}
+.ourAtmosphere__content-secondImg{width: 665px; height: 340px;margin-top: -40px; border-radius: 20px; background: url("../img/ourAtmosphere__content-secondImg.jpg")}
+.ourAtmosphere__content_flexZone{width: 100%;display: flex;}
+.ourAtmosphere__content-secondInfoArea-content-2number{font-size: 102px}
+.ourAtmosphere__content-secondInfoArea-content-4number{margin-top: -20px}
+.ourAtmosphere__content-secondInfoArea-content-text-headline{font-size: 24px}
+.ourAtmosphere__content-secondInfoArea-content-text-text{font-size: 16px; margin-top: 5px}
+.ourAtmosphere__content-secondInfoArea-content-text{max-width: 590px}
+.ourAtmosphere__arrow-2{position: absolute; top: 1654px; left: 765px}
+.ourAtmosphere__arrow-3{position: absolute; bottom: 350px; left: 518px}
+.ourAtmosphere__content-fourthImg{width: 665px; height: 300px; margin-top: 167px; border-radius: 20px; background: url("../img/ourAtmosphere__content-fourthImg.jpg")}
+.ourAtmosphere__content-fourthImg__position{background-position: 15% 25%; background-size: cover}
+.ourAtmosphere_star-2{position: absolute; bottom: 30px; left: 820px}
+.ourAtmosphere_star-3{position: absolute; bottom: 384px; left: 94px}
+.ourAtmosphere_star-4{display: none}
+.toPerformance_MA__formHeadline__ourAtmosphere{margin-top: 202px}
+.ourAtmosphere_991BrShow{display: none}
+.ourAtmosphere__content-headline__mobile{display: none}
+.ourAtmosphere__content-b{display: none}
+
+.FAQ_MA{max-width: 1480px; margin-left: 10px; margin-right: 10px; margin-top: 200px; position: relative}
+.FAQ_MA__container{margin-left: 10px; margin-right: 10px}
+.FAQ_MA__content{margin-left: 180px; padding-top: 100px}
+.FAQ_MA__headline{font-size: 64px}
+.FAQ_MA__subtitle{font-size: 24px; color: #BDBDBD}
+.FAQ_MA__materials{margin-left: 187px; margin-top: 50px; display: flex; justify-content: space-between}
+.FAQ_MA__materials__block{}
+.FAQ-formArea{margin-left: 187px; margin-top: 50px;}
+.FAQ-form{max-width: 725px;}
+.FAQ-form__headline{font-size: 24px; color: #828282}
+.FAQ-form__subtitle{font-size: 16px; margin-top: 15px}
+.FAQ-form__input-mainOptions{font-size: 14px; font-family: "Mont_Heavy_MA"; text-transform: uppercase; border-radius: 10px;box-sizing: border-box }
+.FAQ-form__input-flex{display: flex; justify-content: space-between}
+.FAQ-form__input{width: 49.5%; background: white; height: 60px; border: 1px solid #131441; margin-top: 15px; padding-left: 20px}
+.FAQ-form__textarea{margin-top: 10px; height: 92px; border: 1px solid #131441; width: 100%; padding: 22px 0 0 20px; }
+.FAQ-form__button{margin-top: 9px; width: 100%; color: white; background: #3B32F5; height: 60px; border: none}
+.FAQ-form__button:hover{background: #6A63FF; cursor: pointer}
+.FAQ-form__button:active{background: transparent; border: 1px solid white;}
+.FAQ_guitarist{position: absolute; top: 342px; left: 52px}
+.FAQ__mobile-br{display: none}
+
+
+.FAQ_MA__materials__block-content{padding: 15px 15px 15px 30px; background: #E9E9E9; border-radius: 10px;}
+.FAQ_MA__materials__block-content__full{box-sizing: border-box; background: white; box-shadow: inset 0 0 2px black;}
+.FAQ_MA__materials__block-content__mg{margin-top: 30px}
+.FAQ_MA__materials__block-content__question{display: flex; justify-content: space-between; align-items: center}
+.FAQ_MA__materials__block-content__question:hover{cursor: pointer}
+.FAQ_MA__materials__block-content__question-text{width: 275px; height: 40px; font-size: 16px; display: flex; align-items: center; font-family: "Mont_Heavy_MA"; text-transform: uppercase}
+.FAQ_MA__materials__block-content__question-plus{width: 18px; height: 18px}
+.FAQ_MA__materials__block-content__answer{width: 287px; margin-top: 28px; font-size: 16px; display: none; font-family: "Inter_light_MA" }
+
+.teachersSlider__teacher{width: 347px; height: 536px;  border-radius: 20px; margin-top: 60px; margin-left: 30px}
+
+.IndexTeacherInfo__MA{margin-left: 10px; margin-top: 100px}
+.IndexTeacherInfo__MA__slider{max-width: 784px; overflow: hidden; margin-top: 120px;}
+.IndexTeacherInfo__MA__slider-wrap{display: flex; justify-content: space-between; transition: .5s}
+.IndexTeacherInfo__MA__slider-block{width: 347px; height: 536px; background: url("../img/IndexTeacherInfo__MA__slider-blockBG.png") no-repeat; border-radius: 20px}
+.IndexTeacherInfo__MA__slider-block__blue{background: url("../img/IndexTeacherInfo__MA__slider-blockBG-blue.png") no-repeat; }
+.IndexTeacherInfo__MA__slider-block__blueLight{background: url("../img/IndexTeacherInfo__MA__slider-blockBG-blueLight.png") no-repeat; }
+.IndexTeacherInfo__MA__slider-block__violet{background: url("../img/IndexTeacherInfo__MA__slider-blockBG-violet.png") no-repeat; }
+.IndexTeacherInfo__MA__slider-block__violetLight{background: url("../img/IndexTeacherInfo__MA__slider-blockBG-violetLight.png") no-repeat; }
+.IndexTeacherInfo__MA__slider-block__orange{background: url("../img/IndexTeacherInfo__MA__slider-blockBG.png") no-repeat; }
+
+.IndexTeacherInfo__MA__container{margin-left: 10px}
+.IndexTeacherInfo__MA__content{padding-top: 100px; margin-left: 400px; display: flex; justify-content: space-between}
+.IndexTeacherInfo__MA__slider__container{margin-left: auto}
+.IndexTeacherInfo__MA__content__info{color: #131441}
+.IndexTeacherInfo__MA__content__info__headline{font-size: 64px}
+.IndexTeacherInfo__MA__content__info__subtitle{max-width: 400px; margin-top: 50px; font-size: 40px}
+.IndexTeacherInfo__MA__content__info__text{max-width: 400px; font-size: 16px; margin-top: 30px}
+
+.IndexTeacherInfo__MA__slider__controlPanel{display: flex; align-items: center; margin-top: 50px}
+.IndexTeacherInfo__MA__slider__controlPanel__buttons{display: flex; align-items: center}
+.IndexTeacherInfo__MA__slider_btn{width: 60px; height: 60px;}
+.IndexTeacherInfo__MA__slider_btn:hover{cursor: pointer; opacity: .5}
+.IndexTeacherInfo__MA__slider_next{margin-left: 15px}
+.IndexTeacherInfo__MA__slider_prev{transform: scale(-1, 1)}
+.slider__mg{margin-left: 15px}
+.IndexTeacherInfo__MA__slider__controlPanel__link{width: 183px; height: 60px; background: #3B32F5; display: flex; align-items: center; color: white; font-size: 14px; text-decoration: none; justify-content: center; border-radius: 10px; margin-left: 30px}
+.IndexTeacherInfo__MA__slider__controlPanel__link:hover{background: #6A63FF}
+.IndexTeacherInfo__MA__slider__controlPanel__link:active{background: transparent; box-shadow: inset 0 0 2px white}
+
+
+.IndexTeacherInfo__MA__slider-block__container{margin: 15px}
+.IndexTeacherInfo__MA__slider-blockIMG{height: 320px; width: 317px; object-fit:cover; object-position: top;}
+.IndexTeacherInfo__MA__slider-block__teacherName{font-size: 24px; font-family: "Mont_Heavy_MA"; color: white; margin-top: 10px; text-transform: uppercase}
+.IndexTeacherInfo__MA__slider-block__direction{font-size: 16px; font-family: "Mont_Heavy_MA"; color: white; text-transform: uppercase; margin: 0}
+.IndexTeacherInfo__MA__slider-block__description{font-family: "Mont_Extra_light_MA"; font-size: 20px; line-height: 120%; color: white; text-transform: uppercase; margin-top: 15px}
+.IndexTeacherInfo__MA__slider-block__linkArea{display: flex; align-items: center; vertical-align: middle; margin-top: 10px;}
+.IndexTeacherInfo__MA__slider-block__link{font-family: "Mont_Heavy_MA"; font-size: 16px; color: #FFD43A; text-transform: uppercase; text-decoration: none}
+.IndexTeacherInfo__MA__slider-block__link-arrow{width: 6px; height: 11px; margin-left: 5px}
+.IndexTeacherInfo__MA__slider-block__linkArea:hover{text-decoration: underline; cursor: pointer}
+
+.teachersSlider{max-width: 1480px; margin-left: 10px; margin-right: 10px; padding-top: 150px; position: relative}
+.teachersSlider__container{margin-left: 10px; margin-right: 10px}
+.teachersSlider__content{display: flex}
+.teachersSlider__learnMore{margin-left: auto; max-width: 1102px; height: 209px; background: white; display: flex; border-radius: 20px; margin-top: 60px; align-items: center}
+.teachersSlider__learnMore__headline{font-size: 40px; max-width: 580px;}
+.teachersSlider__learnMore__text{max-width: 347px; margin-top: 10px; font-size: 16px}
+.teachersSlider__learnMore__left{margin-left: 20px}
+.teachersSlider__learnMore__right{margin-left: auto; margin-right: 99px}
+.teachersSlider__learnMore__right__headline{color: black; font-size: 24px}
+.teachersSlider__learnMore__icon{width: 53px; height: 53px}
+.teachersSlider__learnMore__icon:hover{fill: #3B32F5}
+.teachersSlider__learnMore__icon__mg{margin-left: 22.2px}
+.teachersSlider__learnMore__right__icons{display: flex; margin-top: 8.5px}
+.teachersSlider__controlPanel{text-transform: uppercase}
+.teachersSlider__controlPanel__headline{font-size: 16px; color: #3B32F5}
+.teachersSlider__controlPanel__block{margin-top: 5px}
+.teachersSlider__controlPanel__sortingButton{margin-top: 10px; font-family: "Mont_Extra_light_MA"; font-size: 14px; color: #131441}
+.teachersSlider__controlPanel__sortingButton:hover{cursor: pointer;}
+.teachersSlider__controlPanel__sortingButton__active{text-decoration: underline}
+.teachersSlider__teachersBlock{ display: flex; flex-wrap: wrap; width: 1131px;  margin-left: auto; margin-top: -60px}
+.teachersArray{display: none}
+.teachersSlider__teacherBlock-resize{display: none}
+
+.teachersPOPUP{position: fixed; background: rgba(0, 0, 0, 0.14); width: 100%; height: 100vh; z-index: 100; overflow: auto; display: none}
+.teachersPOPUP__container{position: relative; display: flex; margin-top: 100px; justify-content: center; margin-bottom: 50px}
+.teachersPOPUP__content{padding: 30px; background: #F6F6F6; border-radius: 20px; position: relative}
+.teachersPOPUP__sliderWrapper{width: 1072px; height: 560px; position: relative; overflow: hidden; background: #828282; -webkit-box-shadow: 4px 4px 8px 4px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 4px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 4px rgba(34, 60, 80, 0.2);}
+.teachersPOPUP__sliderTape__slideONE{background: #fd6f6f; width: 1072px; height: 560px}
+.teachersPOPUP__sliderTape__slideTWO{background: #67ff67; width: 1072px; height: 560px}
+.teachersPOPUP__sliderTape{width: 2144px; display: flex; transition: .5s}
+.teachersPOPUP__sliderArrow{width: 60px; height: 60px;}
+.teachersPOPUP__sliderArrow:hover{cursor: pointer; opacity: .5}
+.teachersPOPUP__sliderArrow__mg{margin-left: 15px;}
+.teachersPOPUP__sliderArrow__reverse{transform: scale(-1, 1)}
+.teachersPOPUP__sliderArrow-area{position: absolute; display: flex; left: 20px; bottom: 20px}
+.teachersPOPUP__sliderText{width: 290px; color: white; mix-blend-mode: difference; font-size: 16px; position: absolute; right: 33px; bottom: 20px}
+.teachersPOPUP__mainInfo{margin-top: 30px; display: flex}
+.teachersPOPUP__mainInfo__INFO__teacherName{font-size: 40px;}
+.teachersPOPUP__mainInfo__INFO__direction{color: #3B32F5; font-size: 16px; margin-top: 0}
+.teachersPOPUP__mainInfo__INFO__quote{max-width: 710px; margin-top: 30px; font-size: 24px}
+.teachersPOPUP__mainInfo__INFO__text{font-size: 16px; max-width: 710px; margin-top: 30px}
+.teachersPOPUP__mainInfo__button{background: #3B32F5; margin-top: 30px; max-width: 322px; height: 60px; display: flex; align-items: center; justify-content: center; font-family: "Mont_Heavy_MA"; font-size: 14px; color: white; text-transform: uppercase; border-radius: 10px}
+.teachersPOPUP__mainInfo__button:hover{cursor: pointer; background: #6A63FF}
+.teachersPOPUP__mainInfo__contacts{padding: 30px 20px 35px 20px; background: white; margin-left: auto; max-height: 480px}
+.teachersPOPUP__mainInfo__contacts__main{max-width: 288px;}
+.teachersPOPUP__mainInfo__contacts__main__headline{font-size: 24px}
+.teachersPOPUP__mainInfo__contacts__main__text{font-size: 16px; margin-top: 20px}
+.teachersPOPUP__mainInfo__button-contactsVer{margin-top: 20px; width: 283px; height: 80px}
+.teachersPOPUP__mainInfo__contacts__links__headline{font-size: 16px}
+.teachersPOPUP__mainInfo__contacts__links{margin-top: 20px}
+.teachersPOPUP__mainInfo__contacts__links__LINKS{margin-top: 9px; display: block}
+.closeButton__MA{position: absolute; width: 52.5px; height: 52.5px; right: -55px; top: -55px}
+.closeButton__MA:hover{cursor: pointer; opacity: .5}
+
+.feedBack__POPUP{position: fixed; background: rgba(0, 0, 0, 0.14); width: 100%; height: 100vh; z-index: 120; overflow: auto; display: none; align-items: center; justify-content: center;}
+.feedBack__POPUP__container{position: relative;}
+.feedBack__POPUP__content{padding: 30px; background: white; border-radius: 20px; position: relative}
+.feedBack__POPUP__headline{font-size: 40px; max-width: 394px}
+.feedBack__POPUP__text{font-size: 16px; max-width: 423px; margin-top: 15px}
+.feedBack__POPUP__form{max-width: 423px}
+.feedBack__POPUP__input{margin-top: 20px; box-sizing: border-box; width: 100%; height: 58px; font-family: "Mont_Heavy_MA"; font-size: 14px; padding-left: 20px; border-radius: 10px; border: 1px solid black}
+.feedBack__POPUP__button{margin-top: 20px; box-sizing: border-box; width: 100%; height: 60px; font-family: "Mont_Heavy_MA"; font-size: 14px; border-radius: 10px; border: none; background: #3B32F5; color: white}
+.feedBack__POPUP__button:hover{cursor: pointer; background: #6A63FF}
+.feedBack__POPUP__closeButton{width: 44px; height: 44px; position: absolute; right: -42px; top: -42px}
+.feedBack__POPUP__closeButton:hover{cursor: pointer; opacity: .5}
+
+
+.darkBlue_MA{color: #131441}
+
+.free_Oktava_photo_MA{background: url("../img/ourAtmosphere__content-thirdImg.jpg")}
+.free_Oktava_photo_options_MA{width: 140px; height: 140px; border-radius: 20px; }
+.flex_MA{display: flex; }
+.bg_opt_all_MA{background-size: cover; background-repeat: no-repeat; background-position: center center}
+.free_Oktava_guitar_MA{width: 491px; height: 643px; position: absolute; right: 90px; top: -108px}
+.size_600_ma{display: none}
+.size_full_MA{display: block}
+.free_oktava_und_head_MA{margin-left: 395px; margin-top: 55px}
+.size_340_MA{display: none}
+.free_oktava_und_head_text_MA{margin-left: 30px}
+.al_items_MA{align-items: center}
+.phone_vectro_MA{width: 54px; height: 43px}
+
+.contAndMap{display: flex; justify-content: center; margin-top: 50px}
+.contactPhone_MA{margin-left: 18px}
+.contactPhone_MA_under{margin-left: 72px; display: inline-block;border-top: 1px solid black}
+.contactPhone_MA_under__right{margin-left: 19px}
+.contAndMap_left_MA_icons{display: flex; margin-top: 9px}
+.contAndMap_left_MA_icons-size{width: 53px; height: 53px}
+.contAndMap_left_MA_icons-size-mg{margin-left: 22.2px}
+.contactsAndMap_hand_MA{position: absolute; bottom: 16px; right: 20px; }
+.contAndMap_left_MA_net{margin-top: 30px}
+.contAndMap_right_MA_spec-mg{margin-top: 50px}
+.contAndMap_MAP{width: 694px; height: 388px; margin-left: 15px; margin-top: 15px;}
+
+.contAndMap_left_MA{width: 725px; height: 767px; background: url("../img/contactsAndMap_bg_MA.png") no-repeat 1% 30%; position: relative; border-radius: 20px}
+.contAndMap_left_noise_MA{position: absolute; width: 100%; height: 100%; background: url("../img/contactsAndMap_bg_noise_MA.png"); opacity: 10%; z-index: 1}
+.contAndMap_left_content_MA{padding-top: 100px; padding-left: 190px; position: relative; z-index: 2}
+.contAndMap_left_center_MA{margin-top: 50px}
+
+.contAndMap_right_MA{width: 725px; height: 767px; background: #131441; border-radius: 20px; position: relative; margin-left: 30px;}
+.contAndMap_right_content_MA{margin-left: 30px; padding-top: 100px}
+.contactsAndMap_pointer_MA{position: absolute; top: 183px; right: 82px}
+
+.vk_soc_MA{width: 1480px; margin-left: auto; margin-right: auto;  position: relative}
+.vk_soc_MA__content{padding-top: 100px; display: flex; justify-content: space-between}
+.vk_soc_MA__headline{margin-left: 190px; font-size: 64px; color: #131441}
+.Vk_block_hand_MA{width: 567px; height: 423px; top: 308px; left: 159px; position: absolute}
+.vk_soc_MA__post{width: 340px;}
+
+
+
+.display_none{display: none}
+.main_form_MA-flex{display: flex; align-items: center}
+
+.size_1180_dp_no_MA{display: none}
+.size_340_MA{display: none}
+.dp_block_1500{display: none}
+.bg-options_MA{background-size: cover; background-position: center center; background-repeat: no-repeat;}
