@@ -107,7 +107,9 @@
       <div class="course__feedbacl__row__ZK">
       <div class = "course__feedback__container">
         <div class = "course__feedback__left Mont-Heavy">
-          <p>НАШИ УЧИТЕЛЯ ПОМОГУТ РАСКРЫТЬ СИЛУ ТВОЕГО ГОЛОСА И ИСПОЛНИТЬ МЕЧТУ.</p>
+          <p>Наши учителя помогут 
+раскрыть твой талант и 
+исполнить мечту</p>
 
         </div>
         <div class = "course__feedback__right">
@@ -192,11 +194,11 @@
   <div class="course__hdl_exp__container">
     <div class = "course__hdl_exp__block__flex">
       <div class = "course__hdl_exp__left">
-        <div class = "course__hdl_exp_l_big Mont-Heavy">С БОЛЕЕ ОПЫТНЫМИ <br>УЧЕНИКАМИ: </div>
-        <div class = "course__hdl_exp_l_title Mont-Heavy">Учимся играть сложные риффы и воспроизводить песни на слух, если хочешь улучшить технику игры</div>
+        <div class = "course__hdl_exp_l_big Mont-Heavy">С БОЛЕЕ ОПЫТНЫМИ<br> УЧЕНИКАМ и будем<br> работать над<br> улучшением техники<br> игры</div>
+        <div class = "course__hdl_exp_l_title Mont-Heavy">Устраним ошибки и разберем особенности игры твоего любимого жанра<br>
+Научим импровизировать и сочинять собственные песни</div>
         <div class="course__hdl_exp_l_title_2 Inter-Light">
-          <span class="Inter-Light">Тренируемся играть на барабанах</span>, если хочешь играть в музыкальной группе или собрать свою.
-                                                                          С теми, <span class="Inter-Light">кто хочет играть джаз, разбираем дополнительную теорию</span> и отработаем все особенности в технике. <span class="course__hdl__about__ZK">Подробнее</span>
+        Если <span class="Inter-SemiBold">хочешь играть в музыкальной группе</span>, то <span class="Inter-SemiBold">поможем ее собрать, сыграться и подготовим к выступлению.</span> <span class="course__hdl__about__ZK">Подробнее</span>
         </div>
       </div>
       <div class="course__hdl_exp__right__container" >

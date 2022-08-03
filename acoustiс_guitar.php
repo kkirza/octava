@@ -117,7 +117,9 @@
       <div class="course__feedbacl__row__ZK">
       <div class = "course__feedback__container">
         <div class = "course__feedback__left Mont-Heavy">
-          <p>НАШИ УЧИТЕЛЯ ПОМОГУТ РАСКРЫТЬ СИЛУ ТВОЕГО ГОЛОСА И ИСПОЛНИТЬ МЕЧТУ.</p>
+          <p>Наши учителя помогут 
+раскрыть твой талант и 
+исполнить мечту</p>
 
         </div>
         <div class = "course__feedback__right">

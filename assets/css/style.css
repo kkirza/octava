@@ -817,6 +817,7 @@ body {
 .inp_txt__ZK_H {
     width: 314px;
     height: 60px;
+    margin-right: 25px;
     font-size: 14px;
     line-height: 18px;
     background: #FFFFFF;
@@ -834,8 +835,9 @@ body {
 .btn__fdback__ZK_H {
     background: #3B32F5;
     border-radius: 10px;
-    padding: 21px 30px 19px;
+    padding: 22px 30px 20px;
     gap: 10px;
+    font-size:14px;
     align-items: center;
     color: #FFFFFF;
 }
@@ -1440,7 +1442,8 @@ body {
         display: none;
     }
 }
-@media (min-width: 1099.97px){
+
+@media (min-width: 1099.97px) {
     /* #container__header {
         position: fixed; 
         ;
@@ -1635,9 +1638,11 @@ header {
     border-top: 2px solid #E0E0E0;
     margin-top: 20px;
 }
+
 .header__block__genre a {
     color: #131441;
 }
+
 .header__block__genre {
     font-size: 16px;
     line-height: 20px;
@@ -1731,23 +1736,26 @@ header {
 .btn-menu {
     position: fixed;
 }
-.header__screen{
+
+.header__screen {
     margin-bottom: 114px;
 }
+
 /*.header__container__bottom {position: absolute; top: 90%; left: 50%; transform: translateX(-50%);*/
 /*    width: fit-content;}*/
 
 
 
 @media screen and (max-width: 1099.97px) {
- .container__header__burger{
-    width: 100%;
-    position: fixed;
+    .container__header__burger {
+        width: 100%;
+        position: fixed;
 
- }
- .btn-menu{
-    z-index: 1002;
- }
+    }
+
+    .btn-menu {
+        z-index: 1002;
+    }
 
 
     .header__menu__link {
@@ -1878,7 +1886,7 @@ header {
 
 @media screen and (max-width: 1099.97px) {
 
-    header{
+    header {
         top: 0;
         margin: 0 auto;
         padding-top: 25px;
@@ -1888,10 +1896,12 @@ header {
         z-index: 1001;
         min-width: 100%;
     }
+
     .header__block__menu {
         margin-top: 80px;
         border-top: 2px #E0E0E0 solid;
     }
+
     #naiv {
         display: none;
     }
@@ -2078,6 +2088,7 @@ header {
     .header__screen {
         margin-bottom: 67px;
     }
+
     .btn-menu .line,
     .btn-menu .line::after,
     .btn-menu .line::before {
@@ -2171,8 +2182,8 @@ header {
 }
 
 
-@media(min-width:1099.77px){
-    header{
+@media(min-width:1099.77px) {
+    header {
         margin: 0 auto;
         background-color: #F7F7F7;
         width: 100%;
@@ -2603,6 +2614,7 @@ header {
 .course__block__services {
     display: flex;
     gap: 30px;
+    align-items: center;
     margin-left: auto;
     border-bottom: 2px solid #E4E4E4;
     padding-bottom: 15px;
@@ -2657,11 +2669,12 @@ header {
 .btn__course__teacher {
     transition: background .4s;
     font-family: 'Mont-Heavy';
+    
     font-weight: 900;
     font-size: 14px;
     line-height: 18px;
     background-color: white;
-    padding: 22px 38px;
+    padding: 21px 37px 19px 37px;
     border: 1px solid black;
     border-radius: 10px;
     width: fit-content;
@@ -2674,10 +2687,11 @@ header {
 
 .btn__course__fdbk {
     background-color: #3B32F5;
-    color: white;
+    color: white;  ;
     width: 138px;
     font-family: 'Mont-Heavy';
-    padding: 24px 26px;
+    padding: 21.5px 25.5px 19.5px 25.5px;
+    font-size: 14px;
     border-radius: 10px;
     border: none;
     display: inline-block;
@@ -2718,6 +2732,7 @@ header {
 @media screen and (max-width: 1111px) {
     .course__block__services {
         gap: 8px;
+    
         padding-left: 5px;
         padding-right: 5px;
     }

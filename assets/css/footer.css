@@ -40,7 +40,17 @@ gap: 10px;
 .footer__block_1_text_subtitle{max-width: 383px;	font-style: normal;font-weight: 300;font-size: 16px;line-height: 130%;color: #131441;
 }
 .footer__block_2__link {
-	color:inherit
+	color:inherit;
+
+}
+
+
+.footer__block__3_link:hover {
+    text-decoration: revert !important;
+}
+.footer__block_2__link:hover{
+	
+    text-decoration: revert;
 }
 .footer__block__1, .footer__block__2 , .footer__block__3{
 	margin-top: 7px;
@@ -67,7 +77,7 @@ gap: 10px;
 .inp_txt__ZK__foot::placeholder {color: #000000; }	
 .card_label_for__chk__foot{font-size: 12px; line-height: 130%; color: #000;}
 .btn__fdback__ZK__foot {margin-bottom: 10px; background: #3B32F5; border-radius: 10px; padding: 22px 30px 20px; gap: 10px;
-    align-items: center; color: #FFFFFF; width: 100%;}
+    align-items: center; color: #FFFFFF; width: 100%; font-size:14px}
 	.btn__fdback__ZK__foot:hover { background: #6A63FF; box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);}	
 .footer__block__messages .header__svg__icons{width: 36px; height: 36px;}
 .footer__block__messages .header__icons__mess:hover{fill: #3B32F5}
@@ -78,7 +88,7 @@ gap: 10px;
 	max-width:317px ;
 }
 
-.footer__block__4__email { gap: 10px;	display: flex;	align-items:center;	margin-bottom: 20px;}
+.footer__block__4__email { gap: 10px;	display: flex;	align-items:baseline;	margin-bottom: 20px;}
 .footer__block__4__txt{	font-size: 24px;line-height: 120%;display: flex;align-items: flex-end;text-transform: uppercase;color: #131441;}
 .footer__block__4__title{max-width: 287px;	font-style: normal;font-weight: 900;font-size: 14px;line-height: 18px;text-transform: uppercase;color: #131441;}
 .footer__block__4__title { margin-bottom: 10px;

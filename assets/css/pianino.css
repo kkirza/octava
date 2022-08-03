@@ -3,7 +3,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 body {background-color:  #F7F7F7;}
 /*Карказ ДЕСКТОП*/
 main {max-width: 1500px; margin: 0 auto;position: relative;}
-.btn__fdback__ZK { background: #3B32F5; border-radius: 10px; padding: 22px 30px 20px; gap: 10px;
+.btn__fdback__ZK {font-size:14px; background: #3B32F5; border-radius: 10px; padding: 22px 30px 20px; gap: 10px;
     align-items: center; color: #FFFFFF;}
 
 .btn__fdback__ZK:hover { background: #6A63FF; box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);}
@@ -448,7 +448,7 @@ main {max-width: 1500px; margin: 0 auto;position: relative;}
 .course__hdl_exp_l_big{padding-bottom: 30px;font-size: 40px; line-height: 120%; text-transform: uppercase; color: #000000;
 }
 .course__hdl__about__ZK{ border-bottom: 1px solid black; cursor: pointer;}
-.course__hdl_exp_l_title{ max-width: 792px;  padding-bottom: 15px; font-size: 24px; line-height: 120%; text-transform: uppercase; color: #000000;}
+.course__hdl_exp_l_title{ max-width: 823px;  padding-bottom: 15px; font-size: 24px; line-height: 120%; text-transform: uppercase; color: #000000;}
 .course__hdl_exp_l_title_2{ max-width: 792px;font-weight: 300; font-size: 16px; line-height: 130%; color: #000000;}
 @media(max-width: 1090px){
     .course__hdl_exp__right {  max-width: 100%;  width: 100%;  height: 100%;  max-height: fit-content; }

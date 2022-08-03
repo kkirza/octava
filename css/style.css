@@ -103,6 +103,7 @@ body{margin: 0; background: #E5E5E5}
 .checkbox-b_MA{width: 18px; height: 18px}
 .schoolOfMusic_MA__form-flex{display: flex; align-items: center}
 .accept_button_MA{font-size: 14px; background: #3B32F5; width: 197px; height: 60px; color: white; border: none; border-radius: 10px}
+.accept_button_MA:hover { background: #6A63FF; box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);}
 .accept_button_MA:hover{cursor: pointer}
 .accept_button_MA__schoolOfMusic-ver{margin-left: 25px; margin-top: 10px}
 .checkbox-b_MA_label{font-size: 14px; margin-left: 10px}

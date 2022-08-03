@@ -47,7 +47,7 @@
 	</div>
 	<div class="block__in__card__elem__center">
 		<div class="container__card__main__course">
-			<div class="card__main__title Mont-Heavy black_ZK">Курсы<br class="br_for_tabl"> и цены</div>
+			<div style="padding-top:0px;" class="card__main__title Mont-Heavy black_ZK">Курсы<br class="br_for_tabl"> и цены</div>
 			<div class="card__block__form_course">
 				<div class="come__to__us Mont-Heavy black_ZK">ПРИХОДИ НА БЕСПЛАТНОЕ ЗАНЯТИЕ</div>
 				<form class="sendFORM">

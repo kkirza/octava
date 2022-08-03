@@ -71,7 +71,7 @@
   <div class="course__second__container">
   <div class = "main__second__card__course Mont-Heavy">
     <div class="course__second__in__obj">
-      <div class = "course__second__title">Чтобы начать заниматься, тебе не нужно уметь играть на акустической гитаре.</div>
+      <div class = "course__second__title">Чтобы начать заниматься, тебе не нужно уметь играть на электрогитаре.</div>
 
       <div class = "course__second__description Inter-Light">
         По ходу обучения<span class="Inter-Bold"> мы будем разбирать сначала самые простые вещи</span>, которые необходимы для игры на обычной гитаре,<span class="Inter-Bold"> а только потом переходить к чему-то более сложному</span>.
@@ -131,7 +131,9 @@
       <div class="course__feedbacl__row__ZK">
       <div class = "course__feedback__container">
         <div class = "course__feedback__left Mont-Heavy">
-          <p>НАШИ УЧИТЕЛЯ ПОМОГУТ РАСКРЫТЬ СИЛУ ТВОЕГО ГОЛОСА И ИСПОЛНИТЬ МЕЧТУ.</p>
+          <p>Наши учителя помогут 
+раскрыть твой талант и 
+исполнить мечту.</p>
 
         </div>
         <div class = "course__feedback__right">

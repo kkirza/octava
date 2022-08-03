@@ -567,7 +567,7 @@
                 Подарочный сертификат
             </div>
             <div class="card__sale__product Mont-Heavy">8 <p>Занятий</p></div>
-            <div class="card__sale_price Mont-Heavy">6.790₽</div>
+            <div class="card__sale_price Mont-Heavy-ExtraLight">6.790₽</div>
             <button class="btn__fdback__ZK Mont-Heavy" type="submit">ОСТАВИТЬ ЗАЯВКУ</button>
 
 
