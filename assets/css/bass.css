@@ -62,7 +62,7 @@ main {max-width: 1500px; margin: 0 auto;  position: relative;}
         margin-top: 15px;}
 }
 
-.main__card__course { border-radius: 20px; margin: 0 10px 0 10px; background: url("../img/background__feedback__akustic__desktop.png"); background-repeat: no-repeat; background-position: center center; background-size: cover; opacity: 1;}
+.main__card__course { border-radius: 20px; margin: 0 10px 0 10px; background: url("../img/background_bass.png"); background-repeat: no-repeat; background-position: center center; background-size: cover; opacity: 1;}
 .crs__electro__boy__1{
     border-radius: 20px;
 }
@@ -105,7 +105,7 @@ main {max-width: 1500px; margin: 0 auto;  position: relative;}
 
 
 @media (max-width: 577px){
-    .main__card__course{background: url("../img/background__feedback__akustic__mobile.png"); background-position: top center;    background-size: cover;}
+    .main__card__course{background: url("../img/background_bass.png"); background-position: top center;    background-size: cover;}
     .crs__block__photo__boys{
         display: block;
         margin-right: 5px;

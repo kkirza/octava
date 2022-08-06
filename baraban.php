@@ -201,8 +201,8 @@
         <div class = "course__hdl_exp_l_big Mont-Heavy">С БОЛЕЕ ОПЫТНЫМИ <br>УЧЕНИКАМИ: </div>
         <div class = "course__hdl_exp_l_title Mont-Heavy">Учимся играть сложные риффы и воспроизводить песни на слух, если хочешь улучшить технику игры</div>
         <div class="course__hdl_exp_l_title_2 Inter-Light">
-          <span class="Inter-Light">Тренируемся играть на барабанах</span>, если хочешь играть в музыкальной группе или собрать свою.
-                                                                          С теми, <span class="Inter-Light">кто хочет играть джаз, разбираем дополнительную теорию</span> и отработаем все особенности в технике. <span class="course__hdl__about__ZK">Подробнее</span>
+          <span class="Inter-SemiBold">Тренируемся играть на барабанах</span>, если хочешь играть в музыкальной группе или собрать свою.
+                                                                          С теми, <span class="Inter-SemiBold">кто хочет играть джаз, разбираем дополнительную теорию</span> и отработаем все особенности в технике. <span class="course__hdl__about__ZK">Подробнее</span>
         </div>
       </div>
       <div class="course__hdl_exp__right__container" >
