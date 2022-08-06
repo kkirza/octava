@@ -31,7 +31,7 @@ main {max-width: 1500px; margin: 0 auto;  position: relative;}
 .course_card__text_ZK { gap:30px; max-width: 536px; font-size: 16px; line-height: 130%; color: #FFFFFF;}
 .come__to__us {font-size: 16px; line-height: 20px; text-transform: uppercase;  color: #FFFFFF; margin-bottom: 10px;}
 .card_label_for__chk{font-size: 14px; line-height: 130%; color: #FFFFFF;}
-.block__contacts__time, .block__contacts__geo { padding-right: 40px; width: 345px; font-size: 16px; line-height: 130%; color: #FFFFFF;}
+.block__contacts__time, .block__contacts__geo { padding-right: 40px; width: 351px; font-size: 16px; line-height: 130%; color: #FFFFFF;}
 .block__contacts__time{ padding-bottom: 8px;}
 .block__in__card__elem__top{width: fit-content; margin-left: auto; margin-bottom: 60px; padding-top:20px; }
 .block__in__card__elem__center{ margin-left: 190px; padding-bottom:  150px;}
@@ -41,8 +41,7 @@ main {max-width: 1500px; margin: 0 auto;  position: relative;}
 .block__clock__text__ZK{ display: flex; gap:5px;}
 .course__img__clock__ZK{ width: 23px; height: 23px; padding-right: 8px;}
 .course__img__geo__ZK{ width: 23px; height: 23px;padding-right: 8px;}
-.note__micro__ZK{position: absolute; right: 144px;
-    top: 62px;}
+
 .crs__block__photo__boys{
     display: flex; align-items: start;
     margin-left: 200px;
@@ -55,13 +54,6 @@ main {max-width: 1500px; margin: 0 auto;  position: relative;}
 .main__second__card__course{
     margin-left: 200px;}
 
-@media(max-width: 1359px){
-    .note__micro__ZK{
-        display: none;
-    }
-
-
-}
 @media(max-width: 1350px){
     .crs_scnd__cont_for_sg {
         display: none;
@@ -81,15 +73,8 @@ main {max-width: 1500px; margin: 0 auto;  position: relative;}
     .crs__block__photo__boys{
         margin-left: 10px;
         margin-right: 10px;}
-    .note__micro__ZK{
-        display: none;
-        left: 458px;
-        top: -21px;
-    }
-    .note__micro__ZK svg{
-        width: 250px;
-        height: 250px;
-    }
+
+
     .mw-830_ZK{max-width: 830px}
     .mw-355_ZK{max-width: 100%}
     .course__second__in__obj{
@@ -118,10 +103,7 @@ main {max-width: 1500px; margin: 0 auto;  position: relative;}
 }
 
 
-@media(max-width: 797px){
-    .note__micro__ZK{
-        display: none;}
-}
+
 @media (max-width: 577px){
     .main__card__course{background: url("../img/background__feedback__akustic__mobile.png"); background-position: top center;    background-size: cover;}
     .crs__block__photo__boys{
@@ -159,6 +141,34 @@ main {max-width: 1500px; margin: 0 auto;  position: relative;}
     .card__block__form{   margin-top: 25px;}
 }
 
+/* NEW*/
+.note__micro__ZK{position: absolute; right:10px; top: 8px;}
+@media(max-width: 1430px){
+    .note__micro__ZK{
+        display: block;
+        left: 773px;
+        top: 46px;
+    }
+    .note__micro__ZK svg{
+        width: 300px;
+        height: 300px;
+    }
+
+}
+@media (max-width: 992px){
+    .note__micro__ZK{
+        display: block;
+        left: 579px;
+        top: 59px;
+    }
+}
+@media(max-width: 797px){
+    .note__micro__ZK{
+        display: none;}
+}
+@media (max-width: 577px){
+    .note__micro__ZK{display: none;}
+}
 
 
 /*SECOND BLOCK*/

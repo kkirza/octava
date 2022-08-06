@@ -837,7 +837,7 @@ body {
     border-radius: 10px;
     padding: 22px 30px 20px;
     gap: 10px;
-    font-size:14px;
+    font-size: 14px;
     align-items: center;
     color: #FFFFFF;
 }
@@ -875,6 +875,12 @@ body {
         background-position: center;
         background-repeat: no-repeat;
         background-size: 100% 100%;
+    }
+}
+
+@media (max-width: 552px) {
+    .container__fback__ZK_H {
+        margin: 0 5px;
     }
 }
 
@@ -2669,7 +2675,7 @@ header {
 .btn__course__teacher {
     transition: background .4s;
     font-family: 'Mont-Heavy';
-    
+
     font-weight: 900;
     font-size: 14px;
     line-height: 18px;
@@ -2687,7 +2693,8 @@ header {
 
 .btn__course__fdbk {
     background-color: #3B32F5;
-    color: white;  ;
+    color: white;
+    ;
     width: 138px;
     font-family: 'Mont-Heavy';
     padding: 21.5px 25.5px 19.5px 25.5px;
@@ -2732,7 +2739,7 @@ header {
 @media screen and (max-width: 1111px) {
     .course__block__services {
         gap: 8px;
-    
+
         padding-left: 5px;
         padding-right: 5px;
     }

@@ -453,3 +453,83 @@ body {background-color:  #F7F7F7;}
 .size_340_MA{display: none}
 .dp_block_1500{display: none}
 .bg-options_MA{background-size: cover; background-position: center center; background-repeat: no-repeat;}
+
+
+
+.container__1500__ZK{max-width: 1500px;margin: 0 auto;
+    position: relative;}
+.main__card__course_T { border-radius: 20px; margin: 0 10px 0 10px; background: url("../img/background__teacher_ZK.png"); background-repeat: no-repeat; background-position: center center; background-size: cover; opacity: 1;}
+.block__in__card__elem__center{ margin-left: 190px; padding-bottom:  150px;}
+.card__main__title_T {font-weight: 900;font-size: 64px;line-height: 120%;text-transform: uppercase;color: #FFFFFF;
+    padding-top:   150px;}
+.course_card__text_ZK_T {
+    display: block;  max-width: 550px; font-size: 16px; line-height: 130%; color: #FFFFFF;}
+.course__main__card__ZK_T{    display: flex;
+    flex-wrap: wrap;
+    align-items: center;}
+.note__micro__teacher__ZK{position: absolute; right: 65px; z-index:2;
+    top: 148px;}
+.note__micro__teacher__ZK_2{position: absolute; left: 57px; z-index:2;
+    top: 27px;}
+.block__for__lbl__chk_T{display: flex;align-items: center; gap:10px; margin-top: 10px; padding-left: 5px;}
+.inp_txt__ZK_T { width: 314px; height: 60px; font-size: 14px; line-height: 18px; background: #FFFFFF;
+    border: 1px solid #000000; border-radius: 10px; margin-right:   23px; padding: 22px 20px 20px; color: #000000;
+    outline:none; font-size:14px}
+.btn__fdback__ZK_T:hover { background: #6A63FF; box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);}
+.btn__fdback__ZK_T { background: #3B32F5; border-radius: 10px; padding: 22px 30px 20px; gap: 10px; font-size: 14px;
+    align-items: center; color: #FFFFFF;}
+.inp_txt__ZK_T::placeholder {color: #000000;}
+.card__block__form_T{margin-top: 50px;}
+.come__to__us_T {font-size: 16px; line-height: 20px; text-transform: uppercase;  color: #FFFFFF; margin-bottom: 10px;}
+#card_chk__teacher{ width: 18px;height: 18px;}
+.card_label_for__chk_T{font-size: 14px; line-height: 130%; color: #FFFFFF;}
+@media (max-width: 1446px) {
+    .note__micro__teacher__ZK{
+        display: none;}
+}
+@media (max-width: 997px){
+    .note__micro__teacher__ZK_2 { left: unset; right: 34px; top:56px;}
+    .card__main__title_T{   padding-top: 0;    }
+    .main__card__course_T{height: 600px;   }
+    .block__in__card__elem__center{ padding: 150px 10px 0 0px; margin: 0 10px;}
+}
+@media (max-width: 577px){
+    .card__block__form_T .block__for__lbl__chk_T{
+        padding-bottom: 69px;}
+    .block__for__lbl__chk_T{
+        padding: 0;}
+    .inp_txt__ZK_T, .btn__fdback__ZK_T {
+        width: 100%; margin: 0}
+    .btn__fdback__ZK_T{ margin-top: 10px;}
+    .card_label_for__chk_T{font-size: 12px;}
+    .card__block__form_T .block__for__lbl__chk_T{
+        padding-bottom: 69px;}
+    .card__block__form_T{   margin-top: 25px;}
+    .course_card__text_ZK_T,.come__to__us_T{font-size: 14px;
+        width: 100%;
+        gap: 15px;}
+    .come__to__us_T{font-size: 14px; width: 100%; gap: 15px;}
+    .note__micro__teacher__ZK_2 {
+        top: 0;
+        right: 15px;}
+    .card__main__title_T{font-size: 40px;line-height: 120%;}
+    .block__in__card__elem__center{   margin-left: 0;    margin-right: 0;  padding: 100px 5px 0 5px;}
+    .main__card__course_T{ margin: 0 5px; border-radius: 10px;}
+    .main__card__course_T{ height: fit-content;}
+    .main__card__course_T{background: url("../img/background__teacher_ZK__mobile.png"); background-position: top center;    background-size: cover;}
+}
+@media (max-width: 345px){
+    .note__micro__teacher__ZK_2{
+        display: none;
+    }
+}
+@media (max-width: 598px) {
+    .note__micro__teacher__ZK_2 svg{
+        width: 120px;
+        height: 120px;
+    }
+    .course__main__card__ZK_T .inp_txt__ZK_T, .course__main__card__ZK_T .btn__fdback__ZK_T{  width: 100%;  }
+    .course__main__card__ZK_T .inp_txt__ZK_T{  margin-right: 0; }
+    .btn__fdback__ZK_T{ margin-top: 10px;}
+}
+

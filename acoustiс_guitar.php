@@ -30,15 +30,22 @@
 
 
   <div class = "main__card__course">
-    <div class="block__in__card__elem__top">
-      <div class="block__clock__text__ZK">
-        <img class='course__img__clock__ZK' src = "assets/img/clock__ZK.svg">
-        <div class = "block__contacts__time Inter-Light">с 10:00 до 22:00</div>
-      </div>
-      <div class="block__clock__text__ZK">
-        <img class='course__img__geo__ZK' src = "assets/img/geo__ZK.svg">
-        <div class = "block__contacts__geo Inter-Light">г. Новосибирск, ул.Серебренниковская, 6/1 цокольный этаж, «Октава»</div>
-      </div>
+  <div class="block__in__card__elem__top">
+            <div class="block__clock__text__ZK">
+            <svg width="18" height="18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 0a9 9 0 1 0 .001 18.001A9 9 0 0 0 9 0Zm3.546 11.766-.575.784a.16.16 0 0 1-.225.034L8.423 10.16a.16.16 0 0 1-.066-.13V4.5c0-.088.072-.16.16-.16h.967c.089 0 .16.072.16.16v4.972l2.866 2.071c.072.05.088.151.036.223Z" fill="#fff"/></svg>
+
+
+                <div class="block__contacts__time Inter-Light black_ZK">с 10:00 до 22:00</div>
+            </div>
+            <div class="block__clock__text__ZK">
+            <svg width="16" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 0C3.59 0 0 3.589 0 7.995-.029 14.44 7.696 19.784 8 20c0 0 8.03-5.56 8-12 0-4.411-3.589-8-8-8Zm0 12c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4Z" fill="#fff"/></svg>
+
+
+
+                <div class="block__contacts__geo Inter-Light black_ZK">г. Новосибирск, ул.Серебренниковская, 6/1
+                    цокольный
+                    этаж, «Октава»</div>
+            </div>
 
 
     </div>

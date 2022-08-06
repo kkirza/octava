@@ -31,7 +31,7 @@ main {max-width: 1500px; margin: 0 auto;  position: relative;}
 .course_card__text_ZK { gap:30px; max-width: 536px; font-size: 16px; line-height: 130%; color: #FFFFFF;}
 .come__to__us {font-size: 16px; line-height: 20px; text-transform: uppercase;  color: #FFFFFF; margin-bottom: 10px;}
 .card_label_for__chk{font-size: 14px; line-height: 130%; color: #FFFFFF;}
-.block__contacts__time, .block__contacts__geo { padding-right: 40px; width: 345px; font-size: 16px; line-height: 130%; color: #FFFFFF;}
+.block__contacts__time, .block__contacts__geo { padding-right: 40px; width: 351px; font-size: 16px; line-height: 130%; color: #FFFFFF;}
 .block__contacts__time{ padding-bottom: 8px;}
 .block__in__card__elem__top{width: fit-content; margin-left: auto; margin-bottom: 60px; padding-top:20px; }
 .block__in__card__elem__center{ margin-left: 190px; padding-bottom:  150px;}
