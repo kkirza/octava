@@ -79,3 +79,11 @@ $('.closeButton__MA').click(function (){
     $('.headerDestroy').css({display: 'block'});
 });
 
+window.onkeydown = function( event ) {
+    if ( event.keyCode == 27 ) {
+        $('body').css({overflow: 'auto'});
+        $('.teachersPOPUP').css({display: 'none'});
+        $('.headerDestroy').css({display: 'block'});
+    }
+};
+

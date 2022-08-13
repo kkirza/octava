@@ -47,17 +47,18 @@
 
       <div class = "card__block__form_T">
         <div class="come__to__us_T Mont-Heavy">ПРИХОДИ НА БЕСПЛАТНОЕ ЗАНЯТИЕ</div>
+
         <form action = "">
           <div class="course__main__card__ZK_T" >
-            <input class="inp_txt__ZK_T Mont-Heavy" type = "text" placeholder="ТЕЛЕФОН">
+            <input class="inp_txt__ZK_T Mont-Heavy phone-mask" required type = "text" placeholder="ТЕЛЕФОН" name="tel">
             <button class="btn__fdback__ZK_T Mont-Heavy" type="submit">ОСТАВИТЬ ЗАЯВКУ</button>
           </div>
           <div class="block__for__lbl__chk_T">
-            <input id="card_chk__teacher" type = "checkbox">
+            <input id="card_chk__teacher" type = "checkbox" required>
             <label class="card_label_for__chk_T Inter-Light" for = "card_chk__teacher">Я даю согласие на обработку персональных данных</label>
           </div>
-
         </form>
+
       </div>
     </div>
   </div>
@@ -162,6 +163,14 @@
         </div>
     </div>
 </section>
+
+<!--БЛОК ОТЗЫВОВ -->
+<div class="mainContainer_MA">
+    <?php require_once('req/reviewsBlock.php') ?>
+</div>
+
+<script src="js/videoScripts.js"></script>
+<!--БЛОК ОТЗЫВОВ -->
 
 <section class="teachersArray">
     <?php require('teachers__array.php')?>

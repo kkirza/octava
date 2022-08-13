@@ -251,6 +251,25 @@
     </div>
   </div>
   </div>
+
+    <!--БЛОК ОТЗЫВОВ -->
+    <div class="mainContainer_MA">
+        <?php require_once('req/reviewsBlock.php') ?>
+
+    </div>
+
+    <script src="js/videoScripts.js"></script>
+    <!--БЛОК ОТЗЫВОВ -->
+
+    <!--БЛОК КВИЗА -->
+
+    <?php require_once('req/quiz.php') ?>
+    <script src="assets/js/quiz.js"></script>
+
+    <!--БЛОК КВИЗА -->
+
+
+
     <style>
         .free_Oktava_microphone_MA{position: absolute; left: 1008px; top: 0}
         @media (max-width: 1310px){  .free_Oktava_microphone_MA{position: absolute; left: 700px; top: 0}  }

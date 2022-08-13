@@ -200,9 +200,9 @@
                 color: white;
                 font-size: 12px;
                 width: 157px;
-                height: 30px;
                 margin-top: 10px;
-                border-radius: 5px
+                border-radius: 5px;
+                padding: 8px 0px 5px 0px;
             }
 
             .singleSubscription__button:hover {
@@ -1130,6 +1130,16 @@
                 </div>
             </div>
         </div>
+
+        <!--БЛОК ОТЗЫВОВ -->
+        <div class="mainContainer_MA" style="position: relative">
+            <?php require_once('req/reviewsBlock.php') ?>
+            <img src="img/reviewsCourses.svg" class="reviewsCourses">
+        </div>
+
+        <script src="js/videoScripts.js"></script>
+        <!--БЛОК ОТЗЫВОВ -->
+
         <?php require_once('req/free_lesson_sofa.php') ?>
 
         <?php require_once('req/contactsAndMap.php') ?>

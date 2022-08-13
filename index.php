@@ -1,4 +1,3 @@
-
 <!doctype html><html lang="ru">
 <head>
     <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -103,6 +102,7 @@
                             <div class="noLimitation_MA-mainArea__active-text__mainTextContainer">
                                 <div class="noLimitation_MA-mainArea__active-text__mainText Inter_Regular_MA">Тут <span class="Inter_semi_bold_MA">ты научишься мыслить креативно</span> в любых ситуациях и <span class="Inter_semi_bold_MA">найдешь друзей</span>, подходящих тебе по духу.</div>
                                 <div class="noLimitation_MA-mainArea__active-text__mainText noLimitation_MA-mainArea__active-text__mainText_mg Inter_Regular_MA">Мы проведём тебя до выступлений на большой сцене и поможем исполнить детскую мечту.</div>
+                                <img src="img/noLimitation_Stars_1.svg" class="noLimitation_Stars_1">
                             </div>
                         </div>
                     </div>
@@ -117,6 +117,7 @@
                             <div class="noLimitation_MA-mainArea__active-text__mainTextContainer">
                                 <div class="noLimitation_MA-mainArea__active-text__mainText Inter_Regular_MA"><span class="Inter_semi_bold_MA">В Октаве ты сможешь отдохнуть от рутины, погрузиться в новую среду и найти новых знакомых</span></div>
                                 <div class="noLimitation_MA-mainArea__active-text__mainText noLimitation_MA-mainArea__active-text__mainText_mg Inter_Regular_MA">Занятия музыкой и выступления заряжают и дают такие эмоции, которые не получишь в обычной жизни. Исполни свою детскую мечту.</div>
+                                <img src="img/noLimitation_Stars_2.svg" class="noLimitation_Stars_2">
                             </div>
                         </div>
                     </div>
@@ -201,6 +202,7 @@
         <img src="img/noLimitation_MA-subtitle.svg" class="noLimitation_MA-subtitle">
         <img src="img/noLimitation_MA-subtitle_2.svg" class="noLimitation_MA-subtitle_2">
         <img src="img/noLimitation_MA-subtitle_3.svg" class="noLimitation_MA-subtitle_3">
+        <img src="img/noLimitation_Stars_3.svg" class="noLimitation_Stars_3">
     </div>
 </section>
 <section class="mainContainer_MA">
@@ -624,6 +626,10 @@
 
 
 
+
+
+
+
 <?php require_once ('req/free_lesson_sofa.php')?>
 
 
@@ -643,6 +649,8 @@
                 <div class="IndexTeacherInfo__MA__slider__container">
                     <div class="IndexTeacherInfo__MA__slider">
                         <div class="IndexTeacherInfo__MA__slider-wrap">
+
+
                             <div class="IndexTeacherInfo__MA__slider-block">
                                 <div class="IndexTeacherInfo__MA__slider-block__container">
                                     <img src="img/IndexTeacherInfo__MA__slider-blockIMG-KARPOVA.png" class="IndexTeacherInfo__MA__slider-blockIMG">
@@ -716,6 +724,8 @@
                                 </div>
                             </div>
 
+
+
                         </div>
                     </div>
                     <div class="IndexTeacherInfo__MA__slider__controlPanel">
@@ -732,6 +742,17 @@
         </div>
     </div>
 </section>
+
+<!--БЛОК ОТЗЫВОВ -->
+<div class="mainContainer_MA">
+    <?php require_once('req/reviewsBlock.php') ?>
+</div>
+
+<script src="js/videoScripts.js"></script>
+<!--БЛОК ОТЗЫВОВ -->
+
+
+
 
 <section class="mainContainer_MA">
     <div class="FAQ_MA">
@@ -854,6 +875,8 @@
         <img src="img/FAQ_guitarist.svg" class="FAQ_guitarist">
     </div>
 </section>
+
+
 
 
 <?php require ('req/contactsAndMap.php')?>

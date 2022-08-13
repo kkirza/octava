@@ -299,6 +299,24 @@
     </div>
   </div>
   </div>
+
+    <!--БЛОК ОТЗЫВОВ -->
+    <div class="mainContainer_MA">
+        <?php require_once('req/reviewsBlock.php') ?>
+
+    </div>
+
+    <script src="js/videoScripts.js"></script>
+    <!--БЛОК ОТЗЫВОВ -->
+
+    <!--БЛОК КВИЗА -->
+
+    <?php require_once('req/quiz.php') ?>
+    <script src="assets/js/quiz.js"></script>
+
+    <!--БЛОК КВИЗА -->
+
+
     <section class="free_Oktava_MA_block_MA of_h_875 c-mg-MA" >
         <div class="free_Oktava_MA_block_MA_cont">
             <div class="Mont_Heavy_MA FS_100_MA color_main_blue_MA">ОКТАВА</div>
@@ -312,8 +330,10 @@
                     <div class="mg_t_full_10 Inter_Light_MA FS_16_MA black_color_MA Lh-130_MA size_340_mg_0"><span class="Inter_semi_bold_MA">и находили</span> свой собственный<br> <span class="Inter_semi_bold_MA">индивидуальный стиль</span></div>
                 </div>
             </div>
-            <img src="img/free_Oktava_guitar.svg" class="free_Oktava_guitar_MA size_full_MA">
+
+            <img src="img/acoustic.svg" class="acousticIMG">
             <img src="img/free_Oktava_600_all.svg" class="free_Oktava_600_all_MA size_600_ma">
+
         </div>
     </section>
     <?php require_once ('req/contactsAndMap.php')?>

@@ -254,6 +254,23 @@
     </div>
   </div>
   </div>
+
+    <!--БЛОК ОТЗЫВОВ -->
+    <div class="mainContainer_MA">
+        <?php require_once('req/reviewsBlock.php') ?>
+
+    </div>
+
+    <script src="js/videoScripts.js"></script>
+    <!--БЛОК ОТЗЫВОВ -->
+
+    <!--БЛОК КВИЗА -->
+
+    <?php require_once('req/quiz.php') ?>
+    <script src="assets/js/quiz.js"></script>
+
+    <!--БЛОК КВИЗА -->
+
     <style>
         .free_Oktava_piano{position: absolute; left: 874px; top: 160px}
         @media (max-width: 1500px){

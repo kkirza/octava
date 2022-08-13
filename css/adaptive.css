@@ -63,9 +63,20 @@
     .FAQ-formArea{margin-left: 0; order: 1}
     .FAQ-form{max-width: 290px;}
     .youCan_MA{margin-top: 100px}
+    .reviewsController__buttons{display: flex}
+    .reviewsButton{text-align: left; margin-left: 30px;}
+    .reviews__videoArea{margin-left: 170px}
+    .reviews__subtitle{margin-top: 15px}
+    .reviewsController{margin-left: 170px}
 
 
 
+}
+
+@media (max-width: 1486px){
+    .reviews__videoBlock__mgLeft_2{margin-left: 0}
+    .reviews__videoBlock__mgLeft_3{margin-left: 30px}
+    .reviewsPageIMG{position: absolute; left: auto; right: 40px}
 }
 
 @media (max-width: 1470px){
@@ -120,6 +131,7 @@
     .teachersPOPUP__mainInfo__button-contactsVer{margin-top: 10px; width: 250px; height: 60px; display: flex; align-items: center; justify-content: center; font-size: 14px; text-align: center}
     .teachersPOPUP__mainInfo__contacts__links{margin-top: 10px;}
     .closeButton__MA{position: absolute; width: 35px; height: 35px; right: 0; top: -40px}
+    .noLimitation_Stars_3{display: none}
 
 
 }
@@ -171,8 +183,23 @@
     .IndexTeacherInfo__MA__content{margin-left: 0}
     .teachersSlider__learnMore{display: block; height: auto; padding-top: 20px; padding-bottom: 23px}
     .teachersSlider__learnMore__right{margin-left: 20px; margin-top: 33.6px; display: flex; align-items: center; margin-right: 0}
-    .teachersSlider__learnMore__right__icons{display: flex; margin-top: 0; margin-left: 60px; }
+    .teachersSlider__learnMore__right__icons{display: flex; margin-top: 0; margin-left: 60px;}
+    .reviews__videoArea{margin-left: 0}
+    .reviews__textArea{margin-left: 0}
+    .reviewsController{margin-left: 0}
 
+    .reviewsPageWord{display: none}
+    .reviewsPageContent{margin-left: 0; max-width: 900px}
+    .reviewsPageIMG{position: absolute; left: auto; right: 40px}
+
+    .acousticIMG{display: none}
+
+}
+
+@media (max-width: 928px){
+    .reviewsPageIMG{display: none}
+    .reviewsPageNotes{display: block; position: absolute; top: 30px; right: 22px}
+    .reviewsPageALT{display: block; position: absolute; top: 340px; right: 15px}
 
 }
 
@@ -222,6 +249,13 @@
     .schoolOfMusic-noBr{display: none}
     .youCanIMG_Note{left: 480px;}
     .youCanIMG{ width: 516px; height: 394px;}
+}
+
+@media (max-width: 786px){
+    .reviews__videoBlock__mgLeft_1{margin-left: 0}
+    .reviews__videoBlock__mgLeft_3{margin-left: 0}
+    .reviewsCourses{display: none}
+
 }
 
 @media (max-width: 740px){
@@ -383,6 +417,30 @@
 
     .teachersSlider{margin-left: 5px; margin-right: 5px; }
     .teachersSlider__container{margin-left: 5px; margin-right: 5px}
+
+    .reviews{margin-left: 5px; margin-right: 5px; margin-top: 100px}
+    .reviews__container{margin-left: 5px; margin-right: 5px}
+    .reviews__subtitle{margin-top: 30px; font-size: 28px}
+    .reviews__headline{font-size: 40px;}
+    .reviews__text{margin-top: 10px; font-size: 16px}
+    .reviews__videoArea{margin-top: 30px;}
+    .reviewsController__buttons-Button{width: 49px; height: 49px}
+    .reviewsController__buttons-Button__next{margin-left: 5px}
+    .reviewsButton{margin-left: 15px; height: 50px}
+    .reviewsController{margin-top: 30px;}
+
+    .reviewsPageNotes{display: none;}
+    .reviewsPageALT{display: none;}
+    .reviewsPage{margin-left: 5px; margin-right: 5px}
+    .reviewsPageContainer{margin-left: 5px; margin-right: 5px}
+    .reviewsPageContent{padding-top: 116px;}
+    .reviewsPageContent__headline{font-size: 72px}
+    .reviewsPageContent__subtitle{font-size: 28px}
+    .reviewsPageContent__text{margin-top: 16px; font-size: 16px}
+    .reviewsPage__videoArea{margin-top: 0}
+    .reviewsPageNotesALT{display: block;position: absolute; top: 10px; right: 10px}
+
+    .quiz__container{margin-top: 50px}
 
 }
 

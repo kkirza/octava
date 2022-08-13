@@ -10,6 +10,7 @@
   <link rel = "stylesheet" href = "assets/css/electro_guitar.css">
   <link rel = "stylesheet" href = "assets/css/header.css">
   <link rel = "stylesheet" href = "assets/css/footer.css">
+
     <link rel = "stylesheet" href = "css/style.css">
     <link rel = "stylesheet" href = "css/adaptive.css">
   <script src="assets/js/jquery-3.6.0.min.js"></script>
@@ -312,6 +313,27 @@
     </div>
   </div>
   </div>
+
+
+
+    <!--БЛОК ОТЗЫВОВ -->
+    <div class="mainContainer_MA">
+        <?php require_once('req/reviewsBlock.php') ?>
+
+    </div>
+
+    <script src="js/videoScripts.js"></script>
+    <!--БЛОК ОТЗЫВОВ -->
+
+    <!--БЛОК КВИЗА -->
+
+    <?php require_once('req/quiz.php') ?>
+    <script src="assets/js/quiz.js"></script>
+
+    <!--БЛОК КВИЗА -->
+
+
+
     <section class="free_Oktava_MA_block_MA of_h_875 c-mg-MA" >
         <div class="free_Oktava_MA_block_MA_cont">
             <div class="Mont_Heavy_MA FS_100_MA color_main_blue_MA">ОКТАВА</div>

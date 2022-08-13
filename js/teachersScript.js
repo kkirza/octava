@@ -217,16 +217,19 @@ $('.teachersSlider__controlPanel__sortingButton__ALL').click(function(){
 });
 
 
-    $('.IndexTeacherInfo__MA__slider-blockIMG__container').mouseover(function(){
-    $(this).css({height: '420px'});
-    $(this).next().next().next().css({display: 'none'});
-    $(this).children().eq(1).css({display: 'block'});
+$('.teachersSlider__teacher').mouseover(function(){
+    $(this).children().children().eq(0).css({height: '420px'});
+    $(this).children().children().eq(0).children().eq(1).css({display: 'block'});
+    $(this).children().children().eq(3).css({display: 'none'});
 });
 
-$('.IndexTeacherInfo__MA__slider-blockIMG__container').mouseout(function(){
-    $(this).css({height: '320px'});
-    $(this).next().next().next().css({display: 'block'});
-    $(this).children().eq(1).css({display: 'none'});
+$('.teachersSlider__teacher').mouseout(function(){
+    $(this).children().children().eq(0).css({height: '320px'});
+    $(this).children().children().eq(0).children().eq(1).css({display: 'none'});
+    $(this).children().children().eq(3).css({display: 'block'});
+
 });
+
+
 
 
