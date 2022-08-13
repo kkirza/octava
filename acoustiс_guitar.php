@@ -13,8 +13,9 @@
     <link rel = "stylesheet" href = "css/adaptive.css">
     <script src="utils.js"></script>
   <script src="ajax.js"></script>
+  <link rel='shortcut icon' type='image/x-icon' href="img/favicon.ico">
   <script src="assets/js/jquery-3.6.0.min.js"></script>
-  <title>Document</title>
+  <title>Акустическая гитара</title>
 <body>
 <?php require('req/feedBack_popup.php')?>
   <?php require_once('header.php')?>
