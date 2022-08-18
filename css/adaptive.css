@@ -83,6 +83,7 @@
     .loveMusic_MA-IMG{ width: 455px; height: 685px;}
     .loveMusic_MA{padding-bottom: 200px}
     .toPerformance_party_MA{position: absolute; width: 601px; height: 571px; right: 36px; bottom: 10px}
+    .teachersMAIN{display: none}
 }
 
 @media (max-width: 1325px){

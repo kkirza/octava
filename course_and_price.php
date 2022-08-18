@@ -15,7 +15,9 @@
     <script src="assets/js/jquery-3.6.0.min.js"></script>
     <script src="utils.js"></script>
     <script src="ajax.js"></script>
-    <title>Курсы и цены</title>
+    <title>Курсы и цены | Музыкальная школа Октава Новосибирск</title>
+    <meta name="description" content="В музыкальной школе Октава единый абонемент на все курсы. Индивидуальные и групповые занятия для детей и взрослых. Гибкие цены, лучшие преподаватели! " />
+
 
 <body>
     <?php require('req/feedBack_popup.php') ?>

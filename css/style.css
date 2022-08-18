@@ -90,12 +90,12 @@ body{margin: 0; background: #E5E5E5}
 .noLimitation_MA-mainArea__active-IMG{width: 883px; height: 345px; margin: 15px 15px 0 15px; border-radius: 15px}
 .noLimitation_MA-mainArea__active-text{display: flex; margin-top: 50px}
 .noLimitation_MA-mainArea__active-text__subtitle{font-size: 40px; width: 505px; margin-left: 30px}
-.noLimitation_MA-mainArea__active-text__mainText{line-height: 130%; font-size: 16px; width: 348px}
+.noLimitation_MA-mainArea__active-text__mainText{line-height: 130%; font-size: 16px; width: 348px; color: #131441}
 .noLimitation_MA-mainArea__active-text__mainText_mg{margin-top: 21px}
 .noLimitation_MA-mainArea__no-activeIMG{width: 317px; height: 211px; border-radius: 15px; margin: 15px 15px 0 15px; opacity: .5}
 .noLimitation_MA-mainArea__no-activeIMG__adults{height: 253px}
 .noLimitation_MA-mainArea__no-activeIMG__child{height: 232px}
-.noLimitation_MA-mainArea__no-active-text{width: 317px; line-height: 130%; font-size: 16px; margin-top: 15px; margin-left: 15px; margin-right: 15px}
+.noLimitation_MA-mainArea__no-active-text{width: 317px; line-height: 130%; font-size: 16px; margin-top: 15px; margin-left: 15px; margin-right: 15px; color: #131441}
 .noLimitation_MA-mainArea__active-text__subtitle-sub{font-size: 16px; margin-top: 30px; line-height: 20.45px}
 .noLimitation-noActive-pointer:hover{cursor: pointer}
 .noLimitation_MA-subtitle_2{display: none}
@@ -346,7 +346,9 @@ body {background-color:  #F7F7F7;}
 .FAQ-form__input{width: 49.5%; background: white; height: 60px; border: 1px solid #131441; margin-top: 15px; padding-left: 20px}
 .FAQ-form__textarea{margin-top: 10px; height: 92px; border: 1px solid #131441; width: 100%; padding: 22px 0 0 20px; }
 .FAQ-form__button{margin-top: 9px; width: 100%; color: white; background: #3B32F5; height: 60px; border: none}
-.FAQ-form__button:hover{background: #6A63FF; cursor: pointer}
+.FAQ-form__button:hover{background: #6A63FF; cursor: pointer; -webkit-box-shadow: 0px 0px 19px 8px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 19px 8px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 19px 8px rgba(34, 60, 80, 0.2);}
 .FAQ-form__button:active{background: transparent; border: 1px solid white;}
 .FAQ_guitarist{position: absolute; top: 342px; left: 52px}
 .FAQ__mobile-br{display: none}
@@ -366,7 +368,7 @@ body {background-color:  #F7F7F7;}
 .IndexTeacherInfo__MA{margin-left: 10px; margin-top: 100px}
 .IndexTeacherInfo__MA__slider{max-width: 784px; overflow: hidden; margin-top: 120px;}
 .IndexTeacherInfo__MA__slider-wrap{display: flex; justify-content: space-between; transition: .5s}
-.IndexTeacherInfo__MA__slider-block{width: 347px; height: 536px; background: url("../img/IndexTeacherInfo__MA__slider-blockBG.png") no-repeat; border-radius: 20px}
+.IndexTeacherInfo__MA__slider-block{width: 347px; height: 536px; background: url("../img/IndexTeacherInfo__MA__slider-blockBG.png") no-repeat; border-radius: 20px; }
 .IndexTeacherInfo__MA__slider-block__blue{background: url("../img/IndexTeacherInfo__MA__slider-blockBG-blue.png") no-repeat; }
 .IndexTeacherInfo__MA__slider-block__blueLight{background: url("../img/IndexTeacherInfo__MA__slider-blockBG-blueLight.png") no-repeat; }
 .IndexTeacherInfo__MA__slider-block__violet{background: url("../img/IndexTeacherInfo__MA__slider-blockBG-violet.png") no-repeat; }
@@ -394,7 +396,8 @@ body {background-color:  #F7F7F7;}
 
 
 .IndexTeacherInfo__MA__slider-block__container{margin: 15px}
-.IndexTeacherInfo__MA__slider-blockIMG{height: 320px; width: 317px; object-fit:cover; object-position: top;}
+.IndexTeacherInfo__MA__slider-blockIMG__container{height: 320px; overflow: hidden; transition: .4s; position: relative; border-radius: 15px}
+.IndexTeacherInfo__MA__slider-blockIMG{height: 420px; width: 317px; object-fit:cover; object-position: top; border-radius: 15px}
 .IndexTeacherInfo__MA__slider-block__teacherName{font-size: 24px; font-family: "Mont_Heavy_MA"; color: white; margin-top: 10px; text-transform: uppercase}
 .IndexTeacherInfo__MA__slider-block__direction{font-size: 16px; font-family: "Mont_Heavy_MA"; color: white; text-transform: uppercase; margin: 0}
 .IndexTeacherInfo__MA__slider-block__description{font-family: "Mont_Extra_light_MA"; font-size: 20px; line-height: 120%; color: white; text-transform: uppercase; margin-top: 15px}
@@ -429,7 +432,7 @@ body {background-color:  #F7F7F7;}
 .teachersPOPUP{position: fixed; background: rgba(0, 0, 0, 0.14); width: 100%; height: 100vh; z-index: 100; overflow: auto; display: none}
 .teachersPOPUP__container{position: relative; display: flex; margin-top: 100px; justify-content: center; margin-bottom: 50px}
 .teachersPOPUP__content{padding: 30px; background: #F6F6F6; border-radius: 20px; position: relative}
-.teachersPOPUP__sliderWrapper{width: 1072px; height: 560px; position: relative; overflow: hidden; background: #828282; -webkit-box-shadow: 4px 4px 8px 4px rgba(34, 60, 80, 0.2);
+.teachersPOPUP__sliderWrapper{width: 1072px; height: 560px; position: relative; overflow: hidden;border-radius: 15px; background: #828282; -webkit-box-shadow: 4px 4px 8px 4px rgba(34, 60, 80, 0.2);
     -moz-box-shadow: 4px 4px 8px 4px rgba(34, 60, 80, 0.2);
     box-shadow: 4px 4px 8px 4px rgba(34, 60, 80, 0.2);}
 .teachersPOPUP__sliderTape__slideONE{background: #fd6f6f; width: 1072px; height: 560px}
@@ -444,7 +447,7 @@ body {background-color:  #F7F7F7;}
 .teachersPOPUP__mainInfo{margin-top: 30px; display: flex}
 .teachersPOPUP__mainInfo__INFO__teacherName{font-size: 40px;}
 .teachersPOPUP__mainInfo__INFO__direction{color: #3B32F5; font-size: 16px; margin-top: 0}
-.teachersPOPUP__mainInfo__INFO__quote{max-width: 710px; margin-top: 30px; font-size: 24px}
+.teachersPOPUP__mainInfo__INFO__quote{max-width: 710px; margin-top: 30px; font-size: 24px;}
 .teachersPOPUP__mainInfo__INFO__text{font-size: 16px; max-width: 710px; margin-top: 30px}
 .teachersPOPUP__mainInfo__button{background: #3B32F5; margin-top: 30px; max-width: 322px; height: 60px; display: flex; align-items: center; justify-content: center; font-family: "Mont_Heavy_MA"; font-size: 14px; color: white; text-transform: uppercase; border-radius: 10px}
 .teachersPOPUP__mainInfo__button:hover{cursor: pointer; background: #6A63FF;-webkit-box-shadow: 0px 0px 15px 10px rgba(34, 60, 80, 0.2);
@@ -460,6 +463,8 @@ body {background-color:  #F7F7F7;}
 .teachersPOPUP__mainInfo__contacts__links__LINKS{margin-top: 9px; display: block}
 .closeButton__MA{position: absolute; width: 52.5px; height: 52.5px; right: -55px; top: -55px}
 .closeButton__MA:hover{cursor: pointer; opacity: .5}
+
+.teachersMAIN{position: absolute; left: 40px; top: 350px}
 
 .feedBack__POPUP{position: fixed; background: rgba(0, 0, 0, 0.14); width: 100%; height: 100vh; z-index: 120; overflow: auto; display: none; align-items: center; justify-content: center;}
 .feedBack__POPUP__container{position: relative;}

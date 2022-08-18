@@ -15,7 +15,9 @@
     <script src="assets/js/jquery-3.6.0.min.js"></script>
     <script src="utils.js"></script>
   <script src="ajax.js"></script>
-    <title>Как добраться</title>
+    <title>Контакты|&#9742 +7(383)375-37-25</title>
+    <meta name="description" content="Мы находимся по адресу г. Новосибирск, ул.Серебренниковская, д. 6 1 цокольный этаж, "Октава" &#9742 +7(383)375-37-25 " />
+</head>
 <body>
 <?php require_once ('header.php')?>
 

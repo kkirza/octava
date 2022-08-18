@@ -437,7 +437,7 @@ main {max-width: 1500px; margin: 0 auto;position: relative;}
 /*   БЛОК - УЖЕ ЧЕРЕЗ 2 МЕСЯЦА ЗАНЯТИЙ   */
 .course__hdl__card__big__text{text-align: center; padding-top: 60px; padding-bottom: 10px; font-weight: 900;font-size: 40px;line-height: 120%;text-transform: uppercase;color: #FFFFFF;}
 .course__hdl__card__litle__text{ padding-bottom: 30px; font-weight: 900;font-size: 16px;line-height: 20px;text-align: center;text-transform: uppercase;color: #FFFFFF;}
-.course__hdl__card__desktop{ background: url("../img/acustic__feedback__acustik.png"); background-size: cover; background-repeat: no-repeat; background-position: center center; border-radius: 20px; margin: 100px 10px 0 10px;}
+.course__hdl__card__desktop{ background: url("../img/pianino__feedback_desk.png"); background-size: cover; background-repeat: no-repeat; background-position: center center; border-radius: 20px; margin: 100px 10px 0 10px;}
 .m0_auto_ZK{ margin: 0 auto; width: fit-content; padding-bottom: 40px;}
 .course__hdl_exp__container{margin: 100px 10px 0 10px;}
 .course__hdl_exp__block__flex{ display: flex; align-items: start; justify-content: space-between}

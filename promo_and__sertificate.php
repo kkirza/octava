@@ -12,10 +12,14 @@
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/adaptive.css">
-    <title>Акции и сертификаты</title>
+    <title>Акции и скидки | "Октава" Новосибирск</title>
+    <meta name="description" content="Присоединяйся к лучшей музыкальной школе в Новосибирске. Первый урок бесплатно, для всех действуют акции и выгодные предложения! Присоединяйся! " />
+
+
     <script src="assets/js/jquery-3.6.0.min.js"></script>
     <script src="utils.js"></script>
     <script src="ajax.js"></script>
+</head>
 
     <?php require('req/feedBack_popup.php') ?>
     <?php require_once('header.php'); ?>
@@ -156,7 +160,7 @@
                         <div class="card__sale__product Mont-Heavy">4 <p>Занятия</p>
                         </div>
                         <div class="card__sale_price Mont-Heavy-ExtraLight">3.590₽</div>
-                        <button class="btn__fdback__ZK Mont-Heavy" type="submit">ОСТАВИТЬ ЗАЯВКУ</button>
+                        <button class="btn__fdback__ZK Mont-Heavy popupActive-button" type="submit">ОСТАВИТЬ ЗАЯВКУ</button>
 
 
                         <div class="card__sale__note">
@@ -538,8 +542,8 @@
                         </div>
                         <div class="card__sale__product Mont-Heavy">8 <p>Занятий</p>
                         </div>
-                        <div class="card__sale_price Mont-Heavy">6.790₽</div>
-                        <button class="btn__fdback__ZK Mont-Heavy" type="submit">ОСТАВИТЬ ЗАЯВКУ</button>
+                        <div class="card__sale_price Mont_Extra_Light_MA">6.790₽</div>
+                        <button class="btn__fdback__ZK Mont-Heavy popupActive-button" type="submit">ОСТАВИТЬ ЗАЯВКУ</button>
 
 
                         <div class="card__sale__note">

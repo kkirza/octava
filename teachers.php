@@ -11,7 +11,9 @@
     <script src="assets/js/jquery-3.6.0.min.js"></script>
     <script src="utils.js"></script>
   <script src="ajax.js"></script>
-    <title>Учителя</title>
+    <title>Преподаватели музыкальной школы "Октава" | Новосибирск</title>
+    <meta name="description" content="В музыкальной школе Октава лучшие преподаватели с большим опытом работы! Не важно дети или взрослые, к каждому ученику индивидуальный подход. " />
+
 </head>
 <body style="background: #F6F6F6">
 <?php require('req/feedBack_popup.php')?>
@@ -128,6 +130,7 @@
 
 
                 </div>
+                <img src="img/teachersMAIN.svg" class="teachersMAIN">
             </div>
             <div class="teachersSlider__learnMore darkBlue_MA">
                 <div class="teachersSlider__learnMore__left">
@@ -164,6 +167,8 @@
         </div>
     </div>
 </section>
+
+
 
 <!--БЛОК ОТЗЫВОВ -->
 <div class="mainContainer_MA">

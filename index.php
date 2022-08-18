@@ -91,8 +91,8 @@
                     <div class="noLimitation_MA-mainArea__active-text">
                         <div class="noLimitation_MA-mainArea__active-text__subtitle Up-c_MA Mont_Heavy_MA darkBlue_MA Lh-120_MA">В Октаве дети проявляются, становятся более уверенными и креативными.</div>
                         <div class="noLimitation_MA-mainArea__active-text__mainTextContainer">
-                            <div class="noLimitation_MA-mainArea__active-text__mainText Inter_Regular_MA"><span class="Inter_semi_bold_MA">Занятия музыкой помогают в умственном развитии!</span> Дети, занимающиеся музыкой, быстрее усваивают навыки чтения и умеют яснее выражать свои мысли.</div>
-                            <div class="noLimitation_MA-mainArea__active-text__mainText noLimitation_MA-mainArea__active-text__mainText_mg Inter_Regular_MA">Через музыку ребенок <span class="Inter_semi_bold_MA">научится проявляться и найдет свой стиль.</span><br> А первые успешные выступления<br> на большой сцене помогут ребенку<br> <span class="Inter_semi_bold_MA">стать уверенным в себе.</span></div>
+                            <div class="noLimitation_MA-mainArea__active-text__mainText Inter_Light_MA"><span class="Inter_semi_bold_MA">Занятия музыкой помогают в умственном развитии!</span> Дети, занимающиеся музыкой, быстрее усваивают навыки чтения и умеют яснее выражать свои мысли.</div>
+                            <div class="noLimitation_MA-mainArea__active-text__mainText noLimitation_MA-mainArea__active-text__mainText_mg Inter_Light_MA">Через музыку ребенок <span class="Inter_semi_bold_MA">научится проявляться и найдет свой стиль.</span><br> А первые успешные выступления<br> на большой сцене помогут ребенку<br> <span class="Inter_semi_bold_MA">стать уверенным в себе.</span></div>
                         </div>
                     </div>
                     </div>
@@ -102,8 +102,8 @@
                         <div class="noLimitation_MA-mainArea__active-text">
                             <div class="noLimitation_MA-mainArea__active-text__subtitle Up-c_MA Mont_Heavy_MA darkBlue_MA Lh-120_MA">Занятия музыкой — возможность отвлечься, стать  уверенным и найти свой стиль.</div>
                             <div class="noLimitation_MA-mainArea__active-text__mainTextContainer">
-                                <div class="noLimitation_MA-mainArea__active-text__mainText Inter_Regular_MA">Тут <span class="Inter_semi_bold_MA">ты научишься мыслить креативно</span> в любых ситуациях и <span class="Inter_semi_bold_MA">найдешь друзей</span>, подходящих тебе по духу.</div>
-                                <div class="noLimitation_MA-mainArea__active-text__mainText noLimitation_MA-mainArea__active-text__mainText_mg Inter_Regular_MA">Мы проведём тебя до выступлений на большой сцене и поможем исполнить детскую мечту.</div>
+                                <div class="noLimitation_MA-mainArea__active-text__mainText Inter_Light_MA">Тут <span class="Inter_semi_bold_MA">ты научишься мыслить креативно</span> в любых ситуациях и <span class="Inter_semi_bold_MA">найдешь друзей</span>, подходящих тебе по духу.</div>
+                                <div class="noLimitation_MA-mainArea__active-text__mainText noLimitation_MA-mainArea__active-text__mainText_mg Inter_Light_MA">Мы проведём тебя до выступлений на большой сцене и поможем исполнить детскую мечту.</div>
                                 <img src="img/noLimitation_Stars_1.svg" class="noLimitation_Stars_1">
                             </div>
                         </div>
@@ -117,8 +117,8 @@
                                 <div class="noLimitation_MA-mainArea__active-text__subtitle-sub">С помощью музыки ты сможешь почувствовать себя моложе, показать пример детям и стать с ними ближе.</div>
                             </div>
                             <div class="noLimitation_MA-mainArea__active-text__mainTextContainer">
-                                <div class="noLimitation_MA-mainArea__active-text__mainText Inter_Regular_MA"><span class="Inter_semi_bold_MA">В Октаве ты сможешь отдохнуть от рутины, погрузиться в новую среду и найти новых знакомых</span></div>
-                                <div class="noLimitation_MA-mainArea__active-text__mainText noLimitation_MA-mainArea__active-text__mainText_mg Inter_Regular_MA">Занятия музыкой и выступления заряжают и дают такие эмоции, которые не получишь в обычной жизни. Исполни свою детскую мечту.</div>
+                                <div class="noLimitation_MA-mainArea__active-text__mainText Inter_Light_MA"><span class="Inter_semi_bold_MA">В Октаве ты сможешь отдохнуть от рутины, погрузиться в новую среду и найти новых знакомых</span></div>
+                                <div class="noLimitation_MA-mainArea__active-text__mainText noLimitation_MA-mainArea__active-text__mainText_mg Inter_Light_MA">Занятия музыкой и выступления заряжают и дают такие эмоции, которые не получишь в обычной жизни. Исполни свою детскую мечту.</div>
                                 <img src="img/noLimitation_Stars_2.svg" class="noLimitation_Stars_2">
                             </div>
                         </div>
@@ -131,17 +131,17 @@
 
                         <div class="noLimitation_MA-mainArea__no-active-youth_a noLimitation-activeController noLimitation-noActive-pointer">
                             <img src="img/noLimitation_no-activeYouthIMG.png" class="noLimitation_MA-mainArea__no-activeIMG">
-                            <div class="noLimitation_MA-mainArea__no-active-text Inter_Regular_MA">Занятия музыкой - это возможность <span class="Inter_semi_bold_MA">отвлечься от работы или учебы, стать более уверенным</span> и найти свой собственный стиль.</div>
+                            <div class="noLimitation_MA-mainArea__no-active-text Inter_Light_MA">Занятия музыкой - это возможность <span class="Inter_semi_bold_MA">отвлечься от работы или учебы, стать более уверенным</span> и найти свой собственный стиль.</div>
                         </div>
 
                         <div class="noLimitation_MA-mainArea__no-active-adults_a noLimitation-activeController noLimitation-noActive-pointer display_none">
                             <img src="img/noLimitation_no-activeAdultsIMG.png" class="noLimitation_MA-mainArea__no-activeIMG noLimitation_MA-mainArea__no-activeIMG__adults">
-                            <div class="noLimitation_MA-mainArea__no-active-text Inter_Regular_MA">Никогда <span class="Inter_semi_bold_MA">не поздно заняться тем, что близко душе.</span></div>
+                            <div class="noLimitation_MA-mainArea__no-active-text Inter_Light_MA">Никогда <span class="Inter_semi_bold_MA">не поздно заняться тем, что близко душе.</span></div>
                         </div>
 
                         <div class="noLimitation_MA-mainArea__no-active-child_a noLimitation-activeController noLimitation-noActive-pointer display_none">
                             <img src="img/noLimitation_no-activeChildIMG.png" class="noLimitation_MA-mainArea__no-activeIMG noLimitation_MA-mainArea__no-activeIMG__child">
-                            <div class="noLimitation_MA-mainArea__no-active-text Inter_Regular_MA">В Октаве <span class="Inter_semi_bold_MA">дети проявляются, становятся</span> более <span class="Inter_semi_bold_MA">уверенными и креативными</span></div>
+                            <div class="noLimitation_MA-mainArea__no-active-text Inter_Light_MA">В Октаве <span class="Inter_semi_bold_MA">дети проявляются, становятся</span> более <span class="Inter_semi_bold_MA">уверенными и креативными</span></div>
                         </div>
 
                     </div>
@@ -151,17 +151,17 @@
 
                         <div class="noLimitation_MA-mainArea__no-active-youth_b noLimitation-activeController noLimitation-noActive-pointer display_none">
                             <img src="img/noLimitation_no-activeYouthIMG.png" class="noLimitation_MA-mainArea__no-activeIMG">
-                            <div class="noLimitation_MA-mainArea__no-active-text Inter_Regular_MA">Занятия музыкой - это возможность <span class="Inter_semi_bold_MA">отвлечься от работы или учебы, стать более уверенным</span> и найти свой собственный стиль.</div>
+                            <div class="noLimitation_MA-mainArea__no-active-text Inter_Light_MA">Занятия музыкой - это возможность <span class="Inter_semi_bold_MA">отвлечься от работы или учебы, стать более уверенным</span> и найти свой собственный стиль.</div>
                         </div>
 
                         <div class="noLimitation_MA-mainArea__no-active-adults_b noLimitation-activeController noLimitation-noActive-pointer">
                             <img src="img/noLimitation_no-activeAdultsIMG.png" class="noLimitation_MA-mainArea__no-activeIMG noLimitation_MA-mainArea__no-activeIMG__adults">
-                            <div class="noLimitation_MA-mainArea__no-active-text Inter_Regular_MA">Никогда <span class="Inter_semi_bold_MA">не поздно заняться тем, что близко душе.</span></div>
+                            <div class="noLimitation_MA-mainArea__no-active-text Inter_Light_MA">Никогда <span class="Inter_semi_bold_MA">не поздно заняться тем, что близко душе.</span></div>
                         </div>
 
                         <div class="noLimitation_MA-mainArea__no-active-child_b noLimitation-activeController noLimitation-noActive-pointer display_none">
                             <img src="img/noLimitation_no-activeChildIMG.png" class="noLimitation_MA-mainArea__no-activeIMG noLimitation_MA-mainArea__no-activeIMG__child">
-                            <div class="noLimitation_MA-mainArea__no-active-text Inter_Regular_MA">В Октаве <span class="Inter_semi_bold_MA">дети проявляются, становятся</span> более <span class="Inter_semi_bold_MA">уверенными и креативными</span></div>
+                            <div class="noLimitation_MA-mainArea__no-active-text Inter_Light_MA">В Октаве <span class="Inter_semi_bold_MA">дети проявляются, становятся</span> более <span class="Inter_semi_bold_MA">уверенными и креативными</span></div>
                         </div>
 
                     </div>
@@ -635,6 +635,13 @@
 <?php require_once ('req/free_lesson_sofa.php')?>
 
 
+
+<style>
+    .IndexTeacherInfo__MA__slider-blockIMG-links{position: absolute; right: 5px; bottom: 5px; display: none}
+    .IndexTeacherInfo__MA__slider-blockIMG-links__container{width: 50px}
+    .IndexTeacherInfo__MA__slider-blockIMG-links-link {width: 50px; height: 50px; margin-bottom: 5px}
+    .teacherPrevIMG__ICONS:hover{fill: #3B32F5}
+</style>
 <section>
     <div class="IndexTeacherInfo__MA">
         <div class="IndexTeacherInfo__MA__container">
@@ -643,11 +650,7 @@
                     <div class="IndexTeacherInfo__MA__content__info__headline Up-c_MA Mont_Heavy_MA darkBlue_MA Lh-120_MA">Учителя</div>
                     <div class="IndexTeacherInfo__MA__content__info__subtitle Up-c_MA Mont_Heavy_MA Lh-120_MA">Каждый учитель в нашей школе - профессионал с большим опытом преподавания.</div>
                     <div class="IndexTeacherInfo__MA__content__info__text Inter_Regular_MA Lh-130_MA">Эти люди <span class="Inter_semi_bold_MA">любят музыку</span> и <span class="Inter_semi_bold_MA">живут ей</span>.<br> Тут ты найдешь учителя,<br> который подойдет именно тебе или<br> сможет найти общий язык с твоим ребенком. </div>
-
                 </div>
-
-
-
                 <div class="IndexTeacherInfo__MA__slider__container">
                     <div class="IndexTeacherInfo__MA__slider">
                         <div class="IndexTeacherInfo__MA__slider-wrap">
@@ -655,7 +658,10 @@
 
                             <div class="IndexTeacherInfo__MA__slider-block">
                                 <div class="IndexTeacherInfo__MA__slider-block__container">
+                                    <div class="IndexTeacherInfo__MA__slider-blockIMG__container">
                                     <img src="img/IndexTeacherInfo__MA__slider-blockIMG-KARPOVA.png" class="IndexTeacherInfo__MA__slider-blockIMG">
+                                        <?php require ('req/prevIMGteacher__links.php')?>
+                                    </div>
                                     <div class="IndexTeacherInfo__MA__slider-block__teacherName">ВЕРОНИКА КАРПОВА</div>
                                     <div class="IndexTeacherInfo__MA__slider-block__direction">Вокал</div>
                                     <div class="IndexTeacherInfo__MA__slider-block__description">«Куда бы ни заводили меня дороги жизни, они приводили к музыке...»</div>
@@ -664,7 +670,10 @@
                             </div>
                             <div class="IndexTeacherInfo__MA__slider-block">
                                 <div class="IndexTeacherInfo__MA__slider-block__container">
-                                    <img src="img/IndexTeacherInfo__MA__slider-blockIMG-SMIRNOVA.png" class="IndexTeacherInfo__MA__slider-blockIMG">
+                                    <div class="IndexTeacherInfo__MA__slider-blockIMG__container">
+                                        <img src="img/IndexTeacherInfo__MA__slider-blockIMG-SMIRNOVA.png" class="IndexTeacherInfo__MA__slider-blockIMG">
+                                        <?php require ('req/prevIMGteacher__links.php')?>
+                                    </div>
                                     <div class="IndexTeacherInfo__MA__slider-block__teacherName">СВЕТЛАНА СМИРНОВА</div>
                                     <div class="IndexTeacherInfo__MA__slider-block__direction">Вокал</div>
                                     <div class="IndexTeacherInfo__MA__slider-block__description">«Музыка — океан, в нем можно утонуть, а можно научится плавать...»</div>
@@ -673,7 +682,10 @@
                             </div>
                             <div class="IndexTeacherInfo__MA__slider-block">
                                 <div class="IndexTeacherInfo__MA__slider-block__container">
-                                    <img src="img/IndexTeacherInfo__MA__slider-blockIMG-KUZNECOVA.jpg" class="IndexTeacherInfo__MA__slider-blockIMG">
+                                    <div class="IndexTeacherInfo__MA__slider-blockIMG__container">
+                                        <img src="img/IndexTeacherInfo__MA__slider-blockIMG-KUZNECOVA.jpg" class="IndexTeacherInfo__MA__slider-blockIMG">
+                                        <?php require ('req/prevIMGteacher__links.php')?>
+                                    </div>
                                     <div class="IndexTeacherInfo__MA__slider-block__teacherName">ИРИНА КУЗНЕЦОВА</div>
                                     <div class="IndexTeacherInfo__MA__slider-block__direction">экстрим Вокал</div>
                                     <div class="IndexTeacherInfo__MA__slider-block__description">«Обожаю музыку в разных проявлениях! Особенно вокал...»</div>
@@ -682,7 +694,10 @@
                             </div>
                             <div class="IndexTeacherInfo__MA__slider-block IndexTeacherInfo__MA__slider-block__blue">
                                 <div class="IndexTeacherInfo__MA__slider-block__container">
-                                    <img src="img/IndexTeacherInfo__MA__slider-blockIMG-TARASOV.png" class="IndexTeacherInfo__MA__slider-blockIMG">
+                                    <div class="IndexTeacherInfo__MA__slider-blockIMG__container">
+                                        <img src="img/IndexTeacherInfo__MA__slider-blockIMG-TARASOV.png" class="IndexTeacherInfo__MA__slider-blockIMG">
+                                        <?php require ('req/prevIMGteacher__links.php')?>
+                                    </div>
                                     <div class="IndexTeacherInfo__MA__slider-block__teacherName">АЛЕКСАНДР ТАРАСОВ</div>
                                     <div class="IndexTeacherInfo__MA__slider-block__direction">ГИТАРА</div>
                                     <div class="IndexTeacherInfo__MA__slider-block__description">«Успех гарантирую всем новичкам, конечно если будете делать домашку...»</div>
@@ -691,7 +706,10 @@
                             </div>
                             <div class="IndexTeacherInfo__MA__slider-block IndexTeacherInfo__MA__slider-block__blue">
                                 <div class="IndexTeacherInfo__MA__slider-block__container">
-                                    <img src="img/IndexTeacherInfo__MA__slider-blockIMG-LAZO.png" class="IndexTeacherInfo__MA__slider-blockIMG">
+                                    <div class="IndexTeacherInfo__MA__slider-blockIMG__container">
+                                        <img src="img/IndexTeacherInfo__MA__slider-blockIMG-LAZO.png" class="IndexTeacherInfo__MA__slider-blockIMG">
+                                        <?php require ('req/prevIMGteacher__links.php')?>
+                                    </div>
                                     <div class="IndexTeacherInfo__MA__slider-block__teacherName">АЛЕКСЕЙ ЛАЗО</div>
                                     <div class="IndexTeacherInfo__MA__slider-block__direction">БАС</div>
                                     <div class="IndexTeacherInfo__MA__slider-block__description">«Музыка — это драйв, реализация идей, мыслей и то, что можно...»</div>
@@ -700,7 +718,10 @@
                             </div>
                             <div class="IndexTeacherInfo__MA__slider-block IndexTeacherInfo__MA__slider-block__violet">
                                 <div class="IndexTeacherInfo__MA__slider-block__container">
-                                    <img src="img/IndexTeacherInfo__MA__slider-blockIMG-POPOV.png" class="IndexTeacherInfo__MA__slider-blockIMG">
+                                    <div class="IndexTeacherInfo__MA__slider-blockIMG__container">
+                                        <img src="img/IndexTeacherInfo__MA__slider-blockIMG-POPOV.png" class="IndexTeacherInfo__MA__slider-blockIMG">
+                                        <?php require ('req/prevIMGteacher__links.php')?>
+                                    </div>
                                     <div class="IndexTeacherInfo__MA__slider-block__teacherName">АЛЕКСЕЙ ПОПОВ</div>
                                     <div class="IndexTeacherInfo__MA__slider-block__direction">Барабаны</div>
                                     <div class="IndexTeacherInfo__MA__slider-block__description">«как научиться играть? Всё просто! Берешь палочки и вперёд! Главное делать...»</div>
@@ -709,7 +730,10 @@
                             </div>
                             <div class="IndexTeacherInfo__MA__slider-block IndexTeacherInfo__MA__slider-block__violetLight">
                                 <div class="IndexTeacherInfo__MA__slider-block__container">
-                                    <img src="img/IndexTeacherInfo__MA__slider-blockIMG-PORTNOV.png" class="IndexTeacherInfo__MA__slider-blockIMG">
+                                    <div class="IndexTeacherInfo__MA__slider-blockIMG__container">
+                                        <img src="img/IndexTeacherInfo__MA__slider-blockIMG-PORTNOV.png" class="IndexTeacherInfo__MA__slider-blockIMG">
+                                        <?php require ('req/prevIMGteacher__links.php')?>
+                                    </div>
                                     <div class="IndexTeacherInfo__MA__slider-block__teacherName">РОСТИСЛАВ ПОРТНОВ</div>
                                     <div class="IndexTeacherInfo__MA__slider-block__direction">Барабаны</div>
                                     <div class="IndexTeacherInfo__MA__slider-block__description">«Музыка для меня это образ мышления, стиль жизни. Благодаря этому...»</div>
@@ -718,7 +742,10 @@
                             </div>
                             <div class="IndexTeacherInfo__MA__slider-block IndexTeacherInfo__MA__slider-block__blue">
                                 <div class="IndexTeacherInfo__MA__slider-block__container">
-                                    <img src="img/IndexTeacherInfo__MA__slider-blockIMG-KALACHINA.png" class="IndexTeacherInfo__MA__slider-blockIMG">
+                                    <div class="IndexTeacherInfo__MA__slider-blockIMG__container">
+                                        <img src="img/IndexTeacherInfo__MA__slider-blockIMG-KALACHINA.png" class="IndexTeacherInfo__MA__slider-blockIMG">
+                                        <?php require ('req/prevIMGteacher__links.php')?>
+                                    </div>
                                     <div class="IndexTeacherInfo__MA__slider-block__teacherName">ЕЛИЗАВЕТА КАЛАЧИНА</div>
                                     <div class="IndexTeacherInfo__MA__slider-block__direction">Клавишные</div>
                                     <div class="IndexTeacherInfo__MA__slider-block__description">«Думаете, что я даю уроки по вокалу, но нет, уже 10 лет я связана с фортепиано...»</div>
@@ -744,6 +771,21 @@
         </div>
     </div>
 </section>
+
+<script>
+    $('.IndexTeacherInfo__MA__slider-block').mouseover(function(){
+        $(this).children().children().eq(0).css({height: '420px'});
+        $(this).children().children().eq(0).children().eq(1).css({display: 'block'});
+        $(this).children().children().eq(3).css({display: 'none'});
+    });
+
+    $('.IndexTeacherInfo__MA__slider-block').mouseout(function(){
+        $(this).children().children().eq(0).css({height: '320px'});
+        $(this).children().children().eq(0).children().eq(1).css({display: 'none'});
+        $(this).children().children().eq(3).css({display: 'block'});
+
+    });
+</script>
 
 <!--БЛОК ОТЗЫВОВ -->
 <div class="mainContainer_MA">

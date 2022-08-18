@@ -2376,7 +2376,6 @@ header {
 
 .footer__block__4__txt {
     font-size: 24px;
-    line-height: 120%;
     display: flex;
     align-items: flex-end;
     text-transform: uppercase;
@@ -2677,6 +2676,7 @@ header {
 .btn__course__teacher {
     transition: background .4s;
     font-family: 'Mont-Heavy';
+    -webkit-appearance: none;
 
     font-weight: 900;
     font-size: 14px;
@@ -2716,7 +2716,11 @@ header {
 }
 
 .btn__course__teacher:hover {
-    background-color: #3B32F5;
+    background-color: black;
+    color: white;
+    -webkit-box-shadow: 0px 0px 19px 8px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 19px 8px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 19px 8px rgba(34, 60, 80, 0.2);
     transition: background .4s;
 }
 
