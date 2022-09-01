@@ -13,6 +13,7 @@
     <title>Главная</title>
 </head>
 <body style="background: #F6F6F6">
+<?php require('req/timerPOPUP.php')?>
 <?php require('req/feedBack_popup.php')?>
 <?php require('req/POPUP_teachers.php')?>
 <?php require_once ('header.php')?>

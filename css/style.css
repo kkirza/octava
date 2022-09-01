@@ -40,9 +40,9 @@ body{margin: 0; background: #E5E5E5}
 .Lh-120_MA{line-height: 120%}
 .Lh-130_MA{line-height: 130%}
 
-.schoolOfMusic_MA_bg__guitar{width: 450px; height: 627px; position: absolute; top: 166px; right: 0; transition: .3s}
+.schoolOfMusic_MA_bg__guitar{width: 450px; height: 627px; position: absolute; opacity: 0; top: 166px; right: 0; transition: .3s}
 .schoolOfMusic_MA_bg__piano{position: absolute; opacity: 0; width: 566px; height: 541px; right: 0; top: 205px; transition: .3s}
-.schoolOfMusic_MA_bg__micro{position: absolute; opacity: 0; width: 586px; height: 539px; top: 232px; right: 90px; transition: .3s}
+.schoolOfMusic_MA_bg__micro{position: absolute;  width: 586px; height: 539px; top: 232px; right: 90px; transition: .3s}
 .schoolOfMusic_opacity_transform_hide{opacity: 0; transition: .3s}
 .schoolOfMusic_opacity_transform_show{opacity: 1; transition: .3s}
 .schoolOfMusic_MA__addressArea{padding-top: 20px; width: fit-content; margin-left: auto; margin-right: 60px}
@@ -116,7 +116,7 @@ body{margin: 0; background: #E5E5E5}
 .accept_button_MA__schoolOfMusic-ver{margin-left: 25px; margin-top: 10px}
 .checkbox-b_MA_label{font-size: 14px; margin-left: 10px}
 ::-webkit-input-placeholder {
-    color: #131441;
+    color: black;
 }
 
 .course__wpl__obj__left, .course__wpl__obj__right{ font-family: "Inter_light_MA"}
@@ -391,8 +391,30 @@ body {background-color:  #F7F7F7;}
 .IndexTeacherInfo__MA__slider_prev{transform: scale(-1, 1)}
 .slider__mg{margin-left: 15px}
 .IndexTeacherInfo__MA__slider__controlPanel__link{width: 183px; height: 60px; background: #3B32F5; display: flex; align-items: center; color: white; font-size: 14px; text-decoration: none; justify-content: center; border-radius: 10px; margin-left: 30px}
-.IndexTeacherInfo__MA__slider__controlPanel__link:hover{background: #6A63FF}
+.IndexTeacherInfo__MA__slider__controlPanel__link:hover{background: #6A63FF; -webkit-box-shadow: 4px 4px 8px 4px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 4px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 4px rgba(34, 60, 80, 0.2)}
 .IndexTeacherInfo__MA__slider__controlPanel__link:active{background: transparent; box-shadow: inset 0 0 2px white}
+
+.timerPOPUP{width: 100%; height: 100vh; position: fixed; z-index: 10000; top: 0; display: none}
+.timerPOPUP__container{width: 100%; height: 100%; position: relative; display: flex; align-items: center; justify-content: center}
+.timerPOPUP-whiteArea{position: absolute; background: rgba(255, 255, 255, 0.35); width: 100%; height: 100%}
+.timerPOPUP-whiteArea:hover{cursor: pointer}
+.timerPOPUP__content{width: 1200px; height: 600px; background: white; display: flex; border-radius: 20px; position: relative; z-index: 10; overflow: hidden; -webkit-box-shadow: 4px 4px 8px 4px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 4px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 4px rgba(34, 60, 80, 0.2)}
+.timerPOPUP__contentLEFT{width: 60%; height: 100%; z-index: 10; }
+.timerPOPUP__contentLEFT__headline{font-size: 36px; color: white; margin-top: 40px; margin-left: 10px; background: #3B32F5; width: fit-content; padding: 5px 10px; border-radius: 4px}
+.timerPOPUP__contentRIGHT{width: 40%; color: #131441; display: flex; align-items: center}
+.timerPOPUP__contentRIGHT__headline{font-size: 24px}
+.timerPOPUP__contentRIGHT__container{margin-left: 10px; margin-right: 10px; margin-top: 30px}
+.timerPOPUP__INPUT{width: 100%; height: 60px; border-radius: 10px; border: 1px solid black; font-size: 14px; color: black; padding: 0 0 0 20px; margin-top: 30px}
+.timerPOPUP_accept{width: 100%; height: 60px; color: white; font-size: 14px; background: #3B32F5; border-radius: 10px; margin-top: 10px}
+.timerPOPUP_accept:hover{background: #6A63FF; -webkit-box-shadow: 4px 4px 8px 4px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 4px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 4px rgba(34, 60, 80, 0.2)}
+.timerPOPUP_accept-mg{margin-top: 50px; background: #fd6f6f}
+.timerPOPUP_leaveArea{position: fixed; top: 0; width: 90%; height: 20px; margin-left: 7%; z-index: 999999}
 
 
 .IndexTeacherInfo__MA__slider-block__container{margin: 15px}
@@ -428,6 +450,15 @@ body {background-color:  #F7F7F7;}
 .teachersSlider__teachersBlock{ display: flex; flex-wrap: wrap; width: 1131px;  margin-left: auto; margin-top: -60px}
 .teachersArray{display: none}
 .teachersSlider__teacherBlock-resize{display: none}
+
+.controlTimerPopup{margin-left: auto; margin-right: auto;height: 100vh; width: fit-content;text-align: center; display: flex; align-items: center}
+.controlTimerPopup__inputName{font-size: 24px; color: #131441}
+.controlTimerPopup__inputName-mg{margin-top: 25px}
+.controlTimerPopup__input{margin-top: 10px; font-size: 20px; width: 400px}
+.controlTimerPopup__inputTextarea{margin-top: 10px; font-size: 20px; width: 400px; height: 150px}
+.controlTimerPopup_button{margin-top: 25px; width: 400px; background: #3B32F5; color: white; font-size: 24px; border: none; border-radius: 10px}
+.controlTimerPopup_button:hover{cursor: pointer; background: #6A63FF;}
+
 
 .teachersPOPUP{position: fixed; background: rgba(0, 0, 0, 0.14); width: 100%; height: 100vh; z-index: 100; overflow: auto; display: none}
 .teachersPOPUP__container{position: relative; display: flex; margin-top: 100px; justify-content: center; margin-bottom: 50px}
@@ -501,10 +532,12 @@ body {background-color:  #F7F7F7;}
 .contAndMap_left_MA_icons{display: flex; margin-top: 9px}
 .contAndMap_left_MA_icons-size{width: 53px; height: 53px}
 .contAndMap_left_MA_icons-size-mg{margin-left: 22.2px}
+.contAndMap_left_MA_icons-size:hover .contAndMap_left_MA_icons-size__hover{fill: #3B32F5}
 .contactsAndMap_hand_MA{position: absolute; bottom: 16px; right: 20px; }
 .contAndMap_left_MA_net{margin-top: 30px}
 .contAndMap_right_MA_spec-mg{margin-top: 50px}
 .contAndMap_MAP{width: 694px; height: 388px; margin-left: 15px; margin-top: 15px;}
+.contactPhone_MAHover:hover{opacity: .5}
 
 .contAndMap_left_MA{width: 725px; height: 767px; background: url("../img/contactsAndMap_bg_MA.png") no-repeat 1% 30%; position: relative; border-radius: 20px}
 .contAndMap_left_noise_MA{position: absolute; width: 100%; height: 100%; background: url("../img/contactsAndMap_bg_noise_MA.png"); opacity: 10%; z-index: 1}
@@ -521,10 +554,12 @@ body {background-color:  #F7F7F7;}
 .Vk_block_hand_MA{width: 567px; height: 423px; top: 308px; left: 159px; position: absolute}
 .vk_soc_MA__post{width: 340px;}
 .vk_soc_MA__post_link{font-size: 16px; margin-top: 20px}
+.vk_soc_MA__post_link:hover{opacity: .5}
 
 
 
 .display_none{display: none}
+.display_block{display: block}
 .main_form_MA-flex{display: flex; align-items: center}
 
 .size_1180_dp_no_MA{display: none}

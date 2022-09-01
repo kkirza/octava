@@ -20,6 +20,7 @@
     <meta name="description" content="Уроки фортепьяно &#127929 в Новосибирске, первый урок бесплатно в музыкальной школе Октава. Опытные преподаватели, лучшие инструменты, проверенные методики обучения" />
 
 <body>
+<?php require('req/timerPOPUP.php')?>
 <?php require('req/feedBack_popup.php')?>
 <?php require_once('header.php')?>
 <main>

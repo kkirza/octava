@@ -19,6 +19,7 @@
     <meta name="description" content="Мы находимся по адресу г. Новосибирск, ул.Серебренниковская, д. 6 1 цокольный этаж, "Октава" &#9742 +7(383)375-37-25 " />
 </head>
 <body>
+<?php require('req/timerPOPUP.php')?>
 <?php require_once ('header.php')?>
 
 <style>

@@ -137,6 +137,12 @@
 
 }
 
+@media (max-width: 1240px){
+    .timerPOPUP__contentLEFT{display: none}
+    .timerPOPUP__contentRIGHT{width: 350px}
+    .timerPOPUP__content{width: 350px}
+}
+
 @media (max-width: 1180px){
     .size_600_ma{display: block}
     .size_340_MA{display: none}
@@ -243,6 +249,7 @@
 @media (max-width: 900px){
     .loveMusic_MA-IMG{position: relative; top: 50px; left: 80px}
     .loveMusic_MA__content-text-t__second{margin-left: 20px}
+    .timerPOPUP_leaveArea{display: none}
 
 }
 @media (max-width: 875px){
@@ -328,8 +335,8 @@
     .phone_vectro_MA{width: 46px; height: 37px}
     .contAndMap_left_center_MA-mg{margin-top: 11px}
     .contactPhone_MA_under{margin-left: 0; display: block;width: 300px}
-    .contAndMap_left_MA_icons-size-mg{margin-left: 24px}
     .contAndMap_left_MA_icons-size{width: 35px; height: 35px}
+    .contAndMap_left_MA_icons-size-mg{margin-left: 24px}
     .contAndMap_right_MA{width: 350px; height: 536px; margin-top: 10px; overflow: hidden}
     .contAndMap_MAP{width: 340px; height: 260px; margin-left: 5px; margin-top: 10px;}
     .contAndMap_right_content_MA{margin-left: 5px;}

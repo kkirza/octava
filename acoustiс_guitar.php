@@ -18,6 +18,7 @@
   <title>Уроки гитары &#127928в Новосибирске | 1 урок бесплатно</title>
     <meta name="description" content="Обучение &#127891игре на акустической и электрогитаре &#127928 в Новосибирске в школе Октава. Опытные преподаватели, лучшая творческая атмосфера, первый урок бесплатно, присоединяйся." />
 <body>
+<?php require('req/timerPOPUP.php')?>
 <?php require('req/feedBack_popup.php')?>
   <?php require_once('header.php')?>
 

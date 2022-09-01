@@ -20,7 +20,7 @@
     <script src="utils.js"></script>
     <script src="ajax.js"></script>
 </head>
-
+<?php require('req/timerPOPUP.php')?>
     <?php require('req/feedBack_popup.php') ?>
     <?php require_once('header.php'); ?>
 

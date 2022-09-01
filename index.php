@@ -16,6 +16,7 @@
 </head>
 
 <body style="background: #F6F6F6">
+<?php require('req/timerPOPUP.php')?>
 <?php require('req/feedBack_popup.php')?>
 <?php require ('header.php')?>
 
@@ -45,15 +46,24 @@
             </div>
         </form>
     </div>
+    <img src="img/schoolOfMusic_MA_bg__micro.svg" class="schoolOfMusic_MA_bg__micro schoolOfMusic_MA_bg-control" id="schoolOfMusic_MA_bg__micro">
     <img src="img/schoolOfMusic_MA_bg__guitar.svg" class="schoolOfMusic_MA_bg__guitar schoolOfMusic_MA_bg-control" id="schoolOfMusic_MA_bg__guitar">
     <img src="img/schoolOfMusic_MA_bg__piano.svg" class="schoolOfMusic_MA_bg__piano schoolOfMusic_MA_bg-control" id="schoolOfMusic_MA_bg__piano">
-    <img src="img/schoolOfMusic_MA_bg__micro.svg" class="schoolOfMusic_MA_bg__micro schoolOfMusic_MA_bg-control" id="schoolOfMusic_MA_bg__micro">
+
     <img src="img/schoolOfMusic_MA__headline-subtitle.svg" class="schoolOfMusic_MA__headline-subtitleIMG">
     <img src="img/schoolOfMusic_MA__headline-subtitleIMG_2.svg" class="schoolOfMusic_MA__headline-subtitleIMG_2">
     <img src="img/schoolOfMusic_MA__headline-subtitleIMG_3.svg" class="schoolOfMusic_MA__headline-subtitleIMG_3">
     <img src="img/schoolOfMusic_MA_mobile.svg" class="schoolOfMusic_MA_mobile">
     <script>
-        schoolOfMusic_bg_timer();function schoolOfMusic_bg_timer(){setTimeout("document.getElementById('schoolOfMusic_MA_bg__guitar').classList.add('schoolOfMusic_opacity_transform_hide')",3000);setTimeout("document.getElementById('schoolOfMusic_MA_bg__piano').classList.add('schoolOfMusic_opacity_transform_show')",3200);setTimeout("document.getElementById('schoolOfMusic_MA_bg__piano').classList.remove('schoolOfMusic_opacity_transform_show')",6200);setTimeout("document.getElementById('schoolOfMusic_MA_bg__micro').classList.add('schoolOfMusic_opacity_transform_show')",6400);setTimeout("document.getElementById('schoolOfMusic_MA_bg__micro').classList.remove('schoolOfMusic_opacity_transform_show')",9400);setTimeout("document.getElementById('schoolOfMusic_MA_bg__guitar').classList.remove('schoolOfMusic_opacity_transform_hide')",9600)}
+        schoolOfMusic_bg_timer();function schoolOfMusic_bg_timer(){
+
+            setTimeout("document.getElementById('schoolOfMusic_MA_bg__micro').classList.add('schoolOfMusic_opacity_transform_hide')",3000);
+            setTimeout("document.getElementById('schoolOfMusic_MA_bg__guitar').classList.add('schoolOfMusic_opacity_transform_show')",3200);
+            setTimeout("document.getElementById('schoolOfMusic_MA_bg__guitar').classList.remove('schoolOfMusic_opacity_transform_show')",6200);
+            setTimeout("document.getElementById('schoolOfMusic_MA_bg__piano').classList.add('schoolOfMusic_opacity_transform_show')",6400);
+            setTimeout("document.getElementById('schoolOfMusic_MA_bg__piano').classList.remove('schoolOfMusic_opacity_transform_show')",9400);
+            setTimeout("document.getElementById('schoolOfMusic_MA_bg__micro').classList.remove('schoolOfMusic_opacity_transform_hide')",9600)
+        }
         setInterval(schoolOfMusic_bg_timer,10000)
     </script>
 </div>
