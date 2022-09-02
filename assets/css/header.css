@@ -306,7 +306,7 @@ header {
 
 
     .header__menu__link {
-        padding: 7px 20px 8px 20px;
+        padding: 7px 15px 3px 20px;
         border-radius: 40px;
         transition: background .4s;
         width: fit-content;

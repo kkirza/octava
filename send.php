@@ -22,7 +22,7 @@ $msg .= $_REQUEST['tel'] ? "Телефон ученика: $_REQUEST[tel] \n" : 
 $msg .= $_REQUEST['subj'] ? "Дополнительное сообщение: $_REQUEST[subj] \n" : '';
 $msg .= $_REQUEST['mail'] ? "Почта ученика: $_REQUEST[mail] \n" : '';
 
-$from = "info@rockss.ru";
+$from = "info@oktavamusic.ru ";
 $to = "novosibirsk@rockss.ru";
 $subj = 'Заявка с Октавы';
 

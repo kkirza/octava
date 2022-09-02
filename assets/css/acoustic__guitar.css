@@ -517,3 +517,14 @@ main {max-width: 1500px; margin: 0 auto;  position: relative;}
         margin-right: 5px;
         margin-bottom: 30px;    }
 }
+
+@media (max-width: 997px) {
+    .course__how_doing_lesson__container{
+        margin-top: 100px;
+    }
+}
+@media (max-width: 552px){
+    .course__how_doing_lesson__container{
+        margin-top: 50px;
+    }
+}

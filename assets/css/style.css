@@ -882,6 +882,7 @@ body {
     .container__fback__ZK_H {
         margin: 0 5px;
     }
+    
 }
 
 @media (max-width: 620px) {
@@ -918,7 +919,15 @@ body {
 .block__fdback__ZK_H {
     margin-top: 200px;
 }
-
+@media (max-width: 577px){
+    .block__fdback__ZK_H {
+        background: url("../img/card__feedback_ZK4.jpg");
+        padding: 100px 10px 280px 10px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+}
 @media (max-width: 992px) {
     .block__fdback__ZK_H {
         margin-top: 100px;
@@ -1766,7 +1775,7 @@ header {
 
 
     .header__menu__link {
-        padding: 7px 20px 8px 20px;
+        padding: 7px 15px 3px 20px;
         border-radius: 40px;
         transition: background .4s;
         width: fit-content;
@@ -2282,7 +2291,8 @@ header {
 }
 
 .footer__block_2__list {
-    max-width: 143px;
+    max-width: 164px;
+    width: 164px;
     margin-bottom: 60px;
 }
 
@@ -2370,7 +2380,7 @@ header {
 .footer__block__4__email {
     gap: 10px;
     display: flex;
-    align-items: center;
+    align-items: baseline;
     margin-bottom: 20px;
 }
 
@@ -2628,7 +2638,9 @@ header {
     margin-bottom: 15px;
     width: fit-content;
 }
-
+@media (max-width:373px){
+    .footer__block__3_list{margin-bottom: 0;}
+}
 .course__title {
     font-family: 'Mont-Heavy';
     font-style: normal;
@@ -2781,7 +2793,7 @@ header {
 }
 
 @media screen and (max-width: 640px) {
-
+    .course__toggle__btn {padding: 20px;}
     .course__more:hover,
     .course__more_420:hover {
         border-bottom: 1.5px solid white;
@@ -2883,7 +2895,7 @@ header {
     }
 
     .card_vocal_mobl {
-        background-image: url("/assets/img/bground_card_vocal.png");
+        background-image: url("../img/bground_card_vocal.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -2904,7 +2916,7 @@ header {
     }
 
     .card_gitar_mobl {
-        background-image: url("/assets/img/bground_card_gitar.png");
+        background-image: url("../img/bground_card_gitar.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -2943,6 +2955,7 @@ header {
     .container__course__mobl img {
         border: 1px solid #FFFFFF;
         border-radius: 20px;
+        align-self: baseline;
     }
 
     .btn__course__teacher {
@@ -2994,6 +3007,10 @@ header {
     .course__block__services_card {
         display: block;
         margin: 50px 0px;
+        border: 1px solid black;
+        border-radius: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .course__block__services_card img {
@@ -3056,6 +3073,12 @@ header {
 
 }
 
+@media (max-width:552px){
+    .course__block__services_card {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
 @media screen and (max-width: 420px) {
     .cont_card_white {
         gap: 5px;

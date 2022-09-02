@@ -26,9 +26,6 @@
 
 
     <div class="container__1500__ZK">
-
-
-
         <div class="main__card__course">
             <div class="block__in__card__elem__top">
                 <div class="block__clock__text__ZK">
@@ -93,7 +90,9 @@
                 margin-right: 10px;
                 margin-left: 10px;
                 position: relative;
-                margin-top: 150px
+                margin-top: 150px;
+                overflow: hidden;
+                padding-bottom: 60px;
             }
 
             .singleSubscription__container {
@@ -344,13 +343,15 @@
                     display: block;
                 }
 
+
+
                 .singleSubscriptionIMG_3 {
                     display: block;
                     position: absolute;
                     width: 286px;
                     height: 100px;
                     top: 0;
-                    left: 50px
+                    left: 90px
                 }
 
                 .singleSubscription__priceContainer {
@@ -363,7 +364,10 @@
 
                 .singleSubscription {
                     margin-left: 5px;
-                    margin-right: 5px
+                    margin-right: 5px;
+                    margin-top: 50px;
+                    padding-bottom: 0px;
+
                 }
 
                 .singleSubscription__priceContainer-mobile__block {
@@ -438,6 +442,7 @@
                     <img src="img/singleSubscriptionIMG.svg" class="singleSubscriptionIMG">
                     <img src="img/singleSubscriptionIMG_2.svg" class="singleSubscriptionIMG_2">
                     <img src="img/singleSubscriptionIMG_3.svg" class="singleSubscriptionIMG_3">
+
 
                     <div class="singleSubscription__priceContainer">
                         <div class="singleSubscription__block singleSubscription__block__bg">

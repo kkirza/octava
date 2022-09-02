@@ -62,7 +62,7 @@ body{margin: 0; background: #E5E5E5}
 .mainContainer_MA{max-width: 1500px;margin-left: auto; margin-right: auto}
 .schoolOfMusic_MA__headline-subtitleIMG_2{display: none}
 .schoolOfMusic_MA__headline-subtitleIMG_3{display: none}
-.schoolOfMusic_MA{max-width: 1480px; height: 829px; background: url("../img/schoolOfMusic_MA_bg.png") no-repeat; border-radius: 30px; margin-left: 10px; margin-right: 10px; position: relative}
+.schoolOfMusic_MA{max-width: 1480px; height: 829px; background: url("../img/schoolOfMusic_MA_bg.png") no-repeat; border-radius: 30px; margin-left: 10px; margin-right: 10px; position: relative; }
 .schoolOfMusic-noBr_2{display: none}
 .contAndMap_courseAndPrice{margin-top: 50px}
 .noLimitation_MA{max-width: 1480px; margin-left: 10px; margin-right: 10px; padding-top: 10px; position: relative;}
@@ -173,6 +173,7 @@ body {background-color:  #F7F7F7;}
         display: none;}
 }
 @media (max-width: 577px){
+    .br_where_552{display: blokc;}
     .card__four__lesson{ padding: 30px 5px; border-radius: 10px;
         margin-left: 5px;
         margin-right: 5px; margin-top: 50px}
@@ -199,7 +200,7 @@ body {background-color:  #F7F7F7;}
 
 
 }
-
+.br_where_552{display: none;}
 .loveMusic_MA{max-width: 1480px; margin: 0 10px; position: relative; padding-bottom: 400px}
 .loveMusic_MA__content{margin-left: 190px; padding-top: 200px;}
 .loveMusic_MA__content-headline{font-size: 100px; color: #131441}
