@@ -377,12 +377,17 @@
 			if (window.innerWidth > 420 && window.innerWidth <= 640) {
 				for (let i = 0; i < c420.length; i++) {
 					c420[i].style.display = 'none';
+				}
+				for (let i = 0; i < more.length; i++) {
 					more[i].style.display = 'block';
 				}
 
 			} else if (window.innerWidth <= 420) {
 				for (let i = 0; i < more.length; i++) {
 					more[i].style.display = 'none';
+				}
+				for (let i = 0; i < c420.length; i++) {
+
 					c420[i].style.display = 'block';
 				}
 			}
@@ -405,6 +410,9 @@
 			} else if (window.innerWidth <= 420) {
 				for (let i = 0; i < more.length; i++) {
 					more[i].style.display = 'none';
+				}
+				for (let i = 0; i < c420.length; i++) {
+
 					c420[i].style.display = 'block';
 				}
 			}
