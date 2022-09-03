@@ -272,9 +272,9 @@
     .loveMusic_MA__content-text-t__second{margin-left: 0; margin-top: 20px}
     .loveMusic_MA__content{padding-top: 100px;}
     .teachersSlider__controlPanel__headline{font-size: 14px;}
-    .teachersSlider__controlPanel__block{display: flex; flex-wrap: wrap; margin-top: 10px; margin-left: 0; max-width: 300px}
+    .teachersSlider__controlPanel__block{display: flex; flex-wrap: wrap; margin-top: 0; margin-left: 0; max-width: 300px}
     .teachersSlider__controlPanel{display: block}
-    .teachersSlider__controlPanel__sortingButton{ margin-left: 0}
+    .teachersSlider__controlPanel__sortingButton{ margin-left: 0; padding-top: 10px}
     .teachersSlider__controlPanel__sortingButton__mg{margin-left: 10px}
     .teachersSlider__learnMore__right__headline{max-width: 103px; font-size: 18px}
     .teachersSlider__learnMore__text{margin-top: 0; font-size: 14px; max-width: 339px}
@@ -320,7 +320,7 @@
 
     .sp_fs_600_14{font-size: 14px}
 
-    .contAndMap{ width: 350px; margin-top: 50px}
+    .contAndMap{width: auto ;margin-top: 50px; margin-left: 5px; margin-right: 5px}
     .noLimitation_MA__content-headline{font-size: 40px}
     .noLimitation_MA{margin-left: 5px; margin-right: 5px}
     .noLimitation_MA-subtitle_2{display: none}
@@ -328,8 +328,8 @@
     .noLimitation_MA-controlPanel{width: 350px; height: 50px}
     .noLimitation_MA-controlPanel_button{padding: 5px 10px; font-size: 18px; margin: 0 5px 0 5px}
 
-    .contAndMap_left_content_MA{padding-top: 50px; padding-left: 5px}
-    .contAndMap_left_MA{width: 350px; height: 413px}
+    .contAndMap_left_content_MA{padding-top: 50px; padding-left: 5px; }
+    .contAndMap_left_MA{ height: 413px; width: auto; max-width: 577px;}
     .contAndMap_left_MA_net{margin-top: 30px; margin-left: 0; position: relative; right: 0; bottom: 0}
     .contAndMap_left_center_MA{margin-top: 30px}
     .contAndMap_left_content_MA__head-600{font-size: 28px}
@@ -338,11 +338,11 @@
     .contactPhone_MA_under{margin-left: 0; display: block;width: 300px}
     .contAndMap_left_MA_icons-size{width: 35px; height: 35px}
     .contAndMap_left_MA_icons-size-mg{margin-left: 24px}
-    .contAndMap_right_MA{width: 350px; height: 536px; margin-top: 10px; overflow: hidden}
-    .contAndMap_MAP{width: 340px; height: 260px; margin-left: 5px; margin-top: 10px;}
+    .contAndMap_right_MA{width: auto; max-width: 577px; height: 536px; margin-top: 10px; overflow: hidden;}
+    .contAndMap_MAP{box-sizing: border-box; width: 97.7%; height: 260px; margin-left: 5px; margin-top: 10px;  }
     .contAndMap_right_content_MA{margin-left: 5px;}
     .contAndMap_right_MA_spec-mg{margin-top: 30px}
-    .contactsAndMap_pointer_MA{top: 160px; right: -10px; width: 81px; height: 101px}
+    .contactsAndMap_pointer_MA{top: 160px; right: 1px; width: 81px; height: 101px}
 
     .schoolOfMusic_MA{height: 900px; margin-left: 5px; margin-right: 5px; border-radius: 33px; background-size: cover; position: relative; overflow: hidden}
     .schoolOfMusic_MA__headline{padding-top: 100px; font-size: 72px}
@@ -404,6 +404,7 @@
     .ourAtmosphere__content-b__contentBlock-content__text-text{font-size: 14px;}
     .ourAtmosphere__content-headline__desktop{display: none}
     .ourAtmosphere__content-headline__mobile{display: block}
+    .ourAtmosphere_star-5{display: block; position: absolute; top: 12px; right: 8px}
 
     .FAQ_MA__1500-flex{display: block;}
     .FAQ-form{max-width: 700px;}
@@ -424,7 +425,7 @@
     .IndexTeacherInfo__MA__slider__controlPanel__link{width: 222px; height: 50px; margin-left: 15px}
     .IndexTeacherInfo__MA__slider_btn{width: 49px; height: 49px}
 
-    .teachersSlider{margin-left: 5px; margin-right: 5px; }
+    .teachersSlider{margin-left: 5px; margin-right: 5px; padding-top: 50px}
     .teachersSlider__container{margin-left: 5px; margin-right: 5px}
 
     .reviews{margin-left: 5px; margin-right: 5px; margin-top: 100px}

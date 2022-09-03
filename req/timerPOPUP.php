@@ -1,4 +1,4 @@
-<?php
+<!--<?php
 $jsonPOPUP = file_get_contents('req/timerPOPUP.json');
 $jsonPOPUP_UNDECODE = json_decode($jsonPOPUP, TRUE);
 ?>
@@ -43,3 +43,4 @@ $jsonPOPUP_UNDECODE = json_decode($jsonPOPUP, TRUE);
         document.getElementById('timerPOPUP').classList.remove('display_block');
     };
 </script>
+-->

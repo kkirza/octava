@@ -35,7 +35,7 @@
                 </div>
                 <div class="found__flex_right">
                     <a class="found__link" href="vocal.php"><p class="found__flex_block_obj Inter-Light">Вокал</p></a>
-                    <a class="found__link" href="acoustiс_guitar.php"><p class="found__flex_block_obj Inter-Light">Акустическая гитара</p></a>
+                    <a class="found__link" href="acoustic_guitar.php"><p class="found__flex_block_obj Inter-Light">Акустическая гитара</p></a>
                     <a class="found__link" href="electro_guitar.php"><p class="found__flex_block_obj Inter-Light">Электрогитара</p></a>
                     <a class="found__link" href="pianino.php"><p class="found__flex_block_obj Inter-Light">Клавишные</p></a>
                     <a class="found__link" href="bas_guitar.php"><p class="found__flex_block_obj Inter-Light">Бас-гитара</p></a>

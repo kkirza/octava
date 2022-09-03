@@ -35,6 +35,8 @@ let videoSliderTranslate = 0;
 
 $('.reviews__videoArea').width(videoSliderLength);
 
+videoSliderPrevBtn.css({opacity: .5});
+
 
 videoSliderNextBtn.click(function(){
     if (videoSliderCounter != videoSlidesCount){
@@ -48,6 +50,20 @@ videoSliderNextBtn.click(function(){
         videoSliderTranslate = videoSliderCounter * videoBlockLength;
         $('.reviews__videoArea').css({transform: 'translateX(-'+videoSliderTranslate+'px)'});
 
+    }
+    if (videoSliderCounter > 0 ){
+        videoSliderPrevBtn.css({opacity: 1});
+    }
+    if (videoSliderCounter == 0 ){
+        videoSliderPrevBtn.css({opacity: .5});
+    }
+
+    if (videoSliderCounter == videoSlidesCount -1){
+        videoSliderNextBtn.css({opacity: .5});
+    }
+
+    if (videoSliderCounter != videoSlidesCount -1){
+        videoSliderNextBtn.css({opacity: 1});
     }
 
 });
@@ -63,7 +79,23 @@ videoSliderPrevBtn.click(function(){
         $('.reviews__videoArea').css({transform: 'translateX(-'+videoSliderTranslate+'px)'});
     }
 
+    if (videoSliderCounter > 0 ){
+        videoSliderPrevBtn.css({opacity: 1});
+    }
+    if (videoSliderCounter == 0 ){
+        videoSliderPrevBtn.css({opacity: .5});
+    }
+
+    if (videoSliderCounter == videoSlidesCount -1){
+        videoSliderNextBtn.css({opacity: .5});
+    }
+
+    if (videoSliderCounter != videoSlidesCount -1){
+        videoSliderNextBtn.css({opacity: 1});
+    }
+
 });
+
 
 
 

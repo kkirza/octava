@@ -173,7 +173,7 @@ body {background-color:  #F7F7F7;}
         display: none;}
 }
 @media (max-width: 577px){
-    .br_where_552{display: blokc;}
+    .br_where_552{display: block;}
     .card__four__lesson{ padding: 30px 5px; border-radius: 10px;
         margin-left: 5px;
         margin-right: 5px; margin-top: 50px}
@@ -264,6 +264,7 @@ body {background-color:  #F7F7F7;}
 .ourAtmosphere_star-2{position: absolute; bottom: 30px; left: 820px}
 .ourAtmosphere_star-3{position: absolute; bottom: 384px; left: 94px}
 .ourAtmosphere_star-4{display: none}
+.ourAtmosphere_star-5{display: none}
 .toPerformance_MA__formHeadline__ourAtmosphere{margin-top: 202px}
 .ourAtmosphere_991BrShow{display: none}
 .ourAtmosphere__content-headline__mobile{display: none}
@@ -424,9 +425,9 @@ body {background-color:  #F7F7F7;}
 .IndexTeacherInfo__MA__slider-block__teacherName{font-size: 24px; font-family: "Mont_Heavy_MA"; color: white; margin-top: 10px; text-transform: uppercase}
 .IndexTeacherInfo__MA__slider-block__direction{font-size: 16px; font-family: "Mont_Heavy_MA"; color: white; text-transform: uppercase; margin: 0}
 .IndexTeacherInfo__MA__slider-block__description{font-family: "Mont_Extra_light_MA"; font-size: 20px; line-height: 120%; color: white; text-transform: uppercase; margin-top: 15px}
-.IndexTeacherInfo__MA__slider-block__linkArea{display: flex; align-items: center; vertical-align: middle; margin-top: 10px;}
+.IndexTeacherInfo__MA__slider-block__linkArea{display: flex; align-items: center; margin-top: 10px;}
 .IndexTeacherInfo__MA__slider-block__link{font-family: "Mont_Heavy_MA"; font-size: 16px; color: #FFD43A; text-transform: uppercase; text-decoration: none}
-.IndexTeacherInfo__MA__slider-block__link-arrow{width: 6px; height: 11px; margin-left: 5px}
+.IndexTeacherInfo__MA__slider-block__link-arrow{width: 6px; height: 11px; margin-left: 5px; margin-top: -2px}
 .IndexTeacherInfo__MA__slider-block__linkArea:hover{text-decoration: underline; cursor: pointer}
 
 .teachersSlider{max-width: 1480px; margin-left: 10px; margin-right: 10px; padding-top: 150px; position: relative}

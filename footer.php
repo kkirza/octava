@@ -35,7 +35,7 @@
             <div class="footer__block__3">
                 <ul class="footer__block__3_list">
                     <li class="footer__block__3_item"><a href="vocal.php" class="footer__block__3_link Inter-Light">Вокал</a></li>
-                    <li class="footer__block__3_item"><a href="acoustiс_guitar.php" class="footer__block__3_link Inter-Light">Акустическая гитара</a></li>
+                    <li class="footer__block__3_item"><a href="acoustic_guitar.php" class="footer__block__3_link Inter-Light">Акустическая гитара</a></li>
                     <li class="footer__block__3_item"><a href="electro_guitar.php" class="footer__block__3_link Inter-Light">Электрогитара</a></li>
                     <li class="footer__block__3_item"><a href="pianino.php" class="footer__block__3_link Inter-Light">Клавишные</a></li>
                     <li class="footer__block__3_item"><a href="bas_guitar.php" class="footer__block__3_link Inter-Light">Бас-гитара</a></li>
